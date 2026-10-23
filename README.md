@@ -16,7 +16,9 @@
   <p align="center">
     <img src="https://komarev.com/ghpvc/?username=OPSHARP&color=000000&style=for-the-badge&label=VISITOR+RADAR&labelColor=00f2fe" alt="Visitor Counter" />
     &nbsp;
-    <img src="https://img.shields.io/badge/MODE-3D_CYBER_MATRIX-000000?style=for-the-badge&logo=probot&logoColor=00f2fe" alt="Cyber Matrix" />
+    <a href="https://play.google.com/store/apps/dev?id=4787166422555400493" target="_blank">
+      <img src="https://img.shields.io/badge/Google_Play-27+_APPS_PUBLISHED-000000?style=for-the-badge&logo=googleplay&logoColor=34A853" alt="Google Play Dev" />
+    </a>
     &nbsp;
     <img src="https://img.shields.io/badge/STATUS-SYSTEMS_OPTIMAL-000000?style=for-the-badge&logo=statuspage&logoColor=38ef7d" alt="Status" />
   </p>
@@ -47,6 +49,10 @@
           <tr>
             <td bgcolor="#050505" width="22%" style="border-left: 3px solid #7f52ff;"><b style="color: #7f52ff;">🤖 AI Engineering</b></td>
             <td bgcolor="#050505" style="color: #ffffff;">Designing autonomous multi-agent systems, LLM tools, and prompt architectures</td>
+          </tr>
+          <tr>
+            <td bgcolor="#050505" width="22%" style="border-left: 3px solid #34a853;"><b style="color: #34a853;">🚀 Play Store</b></td>
+            <td bgcolor="#050505" style="color: #ffffff;">Published <b>27+ Android Apps & Games</b> on Google Play Store — <a href="https://play.google.com/store/apps/dev?id=4787166422555400493" target="_blank" style="color: #00f2fe; text-decoration: underline;"><b>View Developer Portfolio (27+ Apps) ↗</b></a></td>
           </tr>
           <tr>
             <td bgcolor="#050505" width="22%" style="border-left: 3px solid #ff7b00;"><b style="color: #ff7b00;">💡 Engineering Motto</b></td>
@@ -97,8 +103,10 @@
         </p>
       </td>
       <td bgcolor="#000000" width="50%" valign="top" style="border: 1px solid #ff7b00; border-radius: 12px;">
-        <h4 align="center" style="color: #ff7b00; margin-top: 5px;">💾 CLOUD & DATA STORAGE</h4>
+        <h4 align="center" style="color: #ff7b00; margin-top: 5px;">💾 BACKEND, CLOUD & DATABASES</h4>
         <p align="center">
+          <img src="https://img.shields.io/badge/Supabase-000000?style=for-the-badge&logo=supabase&logoColor=3ECF8E" />
+          <img src="https://img.shields.io/badge/AWS-000000?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900" />
           <img src="https://img.shields.io/badge/Firebase-000000?style=for-the-badge&logo=firebase&logoColor=FFCA28" />
           <img src="https://img.shields.io/badge/SQLite-000000?style=for-the-badge&logo=sqlite&logoColor=003B57" />
           <img src="https://img.shields.io/badge/PostgreSQL-000000?style=for-the-badge&logo=postgresql&logoColor=316192" />
@@ -220,6 +228,10 @@
 
 <div align="center">
 
+  <a href="https://play.google.com/store/apps/dev?id=4787166422555400493" target="_blank">
+    <img src="https://img.shields.io/badge/Google_Play-27+_Apps-000000?style=for-the-badge&logo=googleplay&logoColor=34A853" alt="Google Play" />
+  </a>
+  &nbsp;&nbsp;
   <a href="https://youtube.com/@tarun_ent" target="_blank">
     <img src="https://img.shields.io/badge/YouTube-@tarun__ent-000000?style=for-the-badge&logo=youtube&logoColor=FF0000" alt="YouTube" />
   </a>
