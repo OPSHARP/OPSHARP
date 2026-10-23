@@ -1,18 +1,18 @@
 <div align="center">
 
-  <!-- VIBRANT 3D GLOWING AURORA HEADER -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,8,14,20,24&height=280&section=header&text=✦%20OPSHARP%20✦&fontSize=72&fontAlignY=36&fontColor=ffffff&animation=twinkling&desc=🚀%2027+%20GOOGLE%20PLAY%20APPS%20%E2%80%A2%20MOBILE%20ARCHITECT%20%E2%80%A2%20AI%20SYSTEMS&descAlignY=58&descAlign=50&descColor=00F2FE" width="100%" alt="OPSHARP Vibrant 3D Banner"/>
+  <!-- 3D VIBRANT MULTICOLOR AURORA HEADER -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,8,14,20,24&height=280&section=header&text=✦%20OPSHARP%20✦&fontSize=74&fontAlignY=36&fontColor=ffffff&animation=twinkling&desc=🚀%2027+%20GOOGLE%20PLAY%20APPS%20%E2%80%A2%20MOBILE%20ARCHITECT%20%E2%80%A2%20AI%20SYSTEMS&descAlignY=58&descAlign=50&descColor=00F2FE" width="100%" alt="OPSHARP 3D Aurora Banner"/>
 
   <br/>
 
-  <!-- MULTICOLOR DYNAMIC TYPING SVG -->
+  <!-- 3D MULTICOLOR TYPING ANIMATION -->
   <a href="https://github.com/OPSHARP">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=23&duration=2800&pause=1000&color=00F2FE&multiline=false&center=true&vCenter=true&repeat=true&width=680&height=45&lines=%E2%9A%A1+WELCOME+TO+THE+OPSHARP+UNIVERSE;%F0%9F%9A%80+27%2B+Production+Apps+%26+Games+Published+on+Google+Play;%F0%9F%93%B1+Architecting+Elite+Flutter%2C+Android+%26+Native+Ecosystems;%F0%9F%A4%96+Engineering+Autonomous+AI+Agents+%26+Next-Gen+Intelligence;%F0%9F%94%A5+Crafting+High-Performance%2C+Visually+Stunning+Software" alt="3D Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=23&duration=2800&pause=1000&color=00F2FE&multiline=false&center=true&vCenter=true&repeat=true&width=680&height=45&lines=%E2%9A%A1+ENTER+THE+3D+DIMENSION+OF+OPSHARP;%F0%9F%9A%80+27%2B+Production+Apps+%26+Games+Published+on+Google+Play;%F0%9F%93%B1+Architecting+Elite+Flutter%2C+Android+%26+High-FPS+UIs;%F0%9F%A4%96+Engineering+Autonomous+AI+Agents+%26+Intelligent+Tools;%F0%9F%94%A5+Turning+Complex+Logic+Into+Liquid+Digital+Experiences" alt="3D Typing SVG" />
   </a>
 
   <br/><br/>
 
-  <!-- VIBRANT 3D SHIELD BADGES -->
+  <!-- 3D FLOATING BADGES & LIVE TELEMETRY RADAR -->
   <p align="center">
     <a href="https://play.google.com/store/apps/dev?id=4787166422555400493" target="_blank">
       <img src="https://img.shields.io/badge/Google_Play-27+_APPS_LIVE-00C853?style=for-the-badge&logo=googleplay&logoColor=white" alt="Google Play Dev" />
@@ -30,49 +30,56 @@
       <img src="https://img.shields.io/badge/Email-tarunvip934@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
     </a>
     &nbsp;
-    <img src="https://hits.sh/github.com/OPSHARP.svg?style=for-the-badge&label=VISITOR+RADAR&color=00f2fe&labelColor=000000" alt="Visitor Counter" />
+    <img src="https://hits.sh/github.com/OPSHARP.svg?style=for-the-badge&label=VISITOR+RADAR&color=00f2fe&labelColor=000000" alt="Visitor Radar" />
   </p>
 
 </div>
 
 ---
 
-<!-- 3D CYBERPUNK TERMINAL PROFILE CARD -->
+<!-- 3D INTERACTIVE COMMAND CENTER & HOLOGRAPHIC ASTRONAUT -->
 <div align="center">
   <table width="100%" border="0" cellspacing="0" cellpadding="0">
     <tr>
-      <td bgcolor="#000000" align="left" style="padding: 22px; border: 2px solid #00f2fe; border-radius: 16px;">
+      <td bgcolor="#000000" width="62%" valign="top" style="padding: 22px; border: 2px solid #00f2fe; border-radius: 16px;">
         <p align="left" style="margin: 0;">
           <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/MacTerminal.gif" width="16" alt="terminal icon" />
-          <b style="color: #00f2fe; font-family: monospace; font-size: 16px;">&nbsp;SYSTEM_CORE // OPSHARP_COMMAND_CENTER.sh</b>
+          <b style="color: #00f2fe; font-family: monospace; font-size: 15px;">&nbsp;OPSHARP_COMMAND_CENTER // V3.0_ONLINE</b>
         </p>
-        <hr style="border: 0; border-top: 1px solid #222222; margin: 14px 0;" />
-        <table width="100%" border="0" cellspacing="6" cellpadding="8">
+        <hr style="border: 0; border-top: 1px solid #1f2937; margin: 12px 0;" />
+        <table width="100%" border="0" cellspacing="5" cellpadding="6">
           <tr>
-            <td bgcolor="#080808" width="22%" style="border-left: 4px solid #00f2fe;"><b style="color: #00f2fe;">👨‍💻 Architect</b></td>
-            <td bgcolor="#080808" style="color: #ffffff;">Tarun (<b style="color: #38ef7d;">@OPSHARP</b>) — Full-Stack Mobile & AI Systems Engineer</td>
+            <td bgcolor="#0a0a0a" width="30%" style="border-left: 4px solid #00f2fe;"><b style="color: #00f2fe;">👨‍💻 Architect</b></td>
+            <td bgcolor="#0a0a0a" style="color: #ffffff;">Tarun (<b style="color: #38ef7d;">@OPSHARP</b>)</td>
           </tr>
           <tr>
-            <td bgcolor="#080808" width="22%" style="border-left: 4px solid #00c853;"><b style="color: #00c853;">🚀 Play Store</b></td>
-            <td bgcolor="#080808" style="color: #ffffff;"><b>27+ Published Android Apps & Games</b> with thousands of active installs — <a href="https://play.google.com/store/apps/dev?id=4787166422555400493" target="_blank" style="color: #00f2fe; text-decoration: underline;"><b>Explore Play Store Developer Console ↗</b></a></td>
+            <td bgcolor="#0a0a0a" width="30%" style="border-left: 4px solid #00c853;"><b style="color: #00c853;">🚀 Play Store</b></td>
+            <td bgcolor="#0a0a0a" style="color: #ffffff;"><b>27+ Published Android Apps</b> — <a href="https://play.google.com/store/apps/dev?id=4787166422555400493" target="_blank" style="color: #00f2fe; text-decoration: underline;"><b>View Portfolio ↗</b></a></td>
           </tr>
           <tr>
-            <td bgcolor="#080808" width="22%" style="border-left: 4px solid #38ef7d;"><b style="color: #38ef7d;">📱 Mobile Core</b></td>
-            <td bgcolor="#080808" style="color: #ffffff;">Specializing in 60-120 FPS high-performance <b>Flutter</b> & <b>Android</b> apps with offline-first persistence</td>
+            <td bgcolor="#0a0a0a" width="30%" style="border-left: 4px solid #38ef7d;"><b style="color: #38ef7d;">📱 Core Focus</b></td>
+            <td bgcolor="#0a0a0a" style="color: #ffffff;">60-120 FPS high-performance <b>Flutter</b> & <b>Android</b> apps with offline persistence</td>
           </tr>
           <tr>
-            <td bgcolor="#080808" width="22%" style="border-left: 4px solid #a855f7;"><b style="color: #a855f7;">🤖 AI Engineering</b></td>
-            <td bgcolor="#080808" style="color: #ffffff;">Autonomous AI agents, multi-agent workflows, Gemini API, Claude SDK & LLM Tooling</td>
+            <td bgcolor="#0a0a0a" width="30%" style="border-left: 4px solid #a855f7;"><b style="color: #a855f7;">🤖 AI Systems</b></td>
+            <td bgcolor="#0a0a0a" style="color: #ffffff;">Autonomous multi-agent workflows, Gemini API & Claude SDK</td>
           </tr>
           <tr>
-            <td bgcolor="#080808" width="22%" style="border-left: 4px solid #ff007f;"><b style="color: #ff007f;">✉️ Direct Line</b></td>
-            <td bgcolor="#080808" style="color: #ffffff;"><a href="mailto:tarunvip934@gmail.com" style="color: #ff3366; text-decoration: underline;"><b>tarunvip934@gmail.com</b></a> (Open for project inquiries, freelance & collaborations)</td>
+            <td bgcolor="#0a0a0a" width="30%" style="border-left: 4px solid #f59e0b;"><b style="color: #f59e0b;">💾 Cloud & DB</b></td>
+            <td bgcolor="#0a0a0a" style="color: #ffffff;">Supabase, AWS, Firebase, PostgreSQL, SQLite</td>
           </tr>
           <tr>
-            <td bgcolor="#080808" width="22%" style="border-left: 4px solid #f59e0b;"><b style="color: #f59e0b;">💡 Motto</b></td>
-            <td bgcolor="#080808" style="color: #ffffff;"><i>“The highest form of engineering is making the complex feel effortless.”</i></td>
+            <td bgcolor="#0a0a0a" width="30%" style="border-left: 4px solid #ff007f;"><b style="color: #ff007f;">✉️ Direct Email</b></td>
+            <td bgcolor="#0a0a0a" style="color: #ffffff;"><a href="mailto:tarunvip934@gmail.com" style="color: #ff3366; text-decoration: underline;"><b>tarunvip934@gmail.com</b></a></td>
           </tr>
         </table>
+      </td>
+      <td bgcolor="#000000" width="38%" align="center" valign="middle" style="padding: 16px; border: 2px solid #a855f7; border-radius: 16px;">
+        <!-- 3D HOLOGRAPHIC FLOATING ASTRONAUT -->
+        <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" alt="3D Holographic Developer in Space" style="border-radius: 12px;" />
+        <p align="center" style="color: #a855f7; font-family: monospace; font-size: 12px; margin-top: 8px;">
+          ✦ HOLOGRAPHIC NEURAL LINK ACTIVE ✦
+        </p>
       </td>
     </tr>
   </table>
@@ -80,13 +87,26 @@
 
 ---
 
-### 🔮 Colorful 3D Tech Arsenal & Weaponry
+### 🔮 3D Tactile Tech Arsenal
 
 <div align="center">
+
+  <!-- 3D GLOSSY APP ICONS GRID VIA SKILLICONS -->
+  <p align="center">
+    <a href="https://skillicons.dev">
+      <img src="https://skillicons.dev/icons?i=flutter,dart,android,kotlin,react,ts,tailwind,nodejs,supabase,aws,firebase,sqlite,postgres,git,github,vscode&perline=8" alt="3D Tech Stack" />
+    </a>
+  </p>
+
+  <br/>
+
   <table width="100%" border="0" cellspacing="8" cellpadding="10">
     <tr>
-      <td bgcolor="#000000" width="50%" valign="top" style="border: 2px solid #00f2fe; border-radius: 12px;">
-        <h4 align="center" style="color: #00f2fe; margin-top: 5px;">📱 MOBILE & CROSS-PLATFORM</h4>
+      <td bgcolor="#000000" width="50%" valign="top" style="border: 2px solid #00f2fe; border-radius: 14px;">
+        <h4 align="center" style="color: #00f2fe; margin: 4px 0 10px 0;">
+          <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Mobile%20Phone%20with%20Arrow.png" width="22" valign="middle"/>
+          &nbsp;MOBILE & CROSS-PLATFORM
+        </h4>
         <p align="center">
           <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
           <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
@@ -96,8 +116,11 @@
           <img src="https://img.shields.io/badge/Google_Play-34A853?style=for-the-badge&logo=googleplay&logoColor=white" />
         </p>
       </td>
-      <td bgcolor="#000000" width="50%" valign="top" style="border: 2px solid #a855f7; border-radius: 12px;">
-        <h4 align="center" style="color: #a855f7; margin-top: 5px;">🤖 AI & INTELLIGENT SYSTEMS</h4>
+      <td bgcolor="#000000" width="50%" valign="top" style="border: 2px solid #a855f7; border-radius: 14px;">
+        <h4 align="center" style="color: #a855f7; margin: 4px 0 10px 0;">
+          <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" width="22" valign="middle"/>
+          &nbsp;AI & INTELLIGENT SYSTEMS
+        </h4>
         <p align="center">
           <img src="https://img.shields.io/badge/Gemini_AI-4E75F6?style=for-the-badge&logo=google&logoColor=white" />
           <img src="https://img.shields.io/badge/Claude_AI-D97706?style=for-the-badge&logo=anthropic&logoColor=white" />
@@ -108,8 +131,11 @@
       </td>
     </tr>
     <tr>
-      <td bgcolor="#000000" width="50%" valign="top" style="border: 2px solid #38ef7d; border-radius: 12px;">
-        <h4 align="center" style="color: #38ef7d; margin-top: 5px;">🌐 WEB & FULL-STACK</h4>
+      <td bgcolor="#000000" width="50%" valign="top" style="border: 2px solid #38ef7d; border-radius: 14px;">
+        <h4 align="center" style="color: #38ef7d; margin: 4px 0 10px 0;">
+          <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="22" valign="middle"/>
+          &nbsp;WEB & FULL-STACK
+        </h4>
         <p align="center">
           <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
           <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
@@ -118,8 +144,11 @@
           <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
         </p>
       </td>
-      <td bgcolor="#000000" width="50%" valign="top" style="border: 2px solid #f59e0b; border-radius: 12px;">
-        <h4 align="center" style="color: #f59e0b; margin-top: 5px;">💾 BACKEND, CLOUD & DATABASES</h4>
+      <td bgcolor="#000000" width="50%" valign="top" style="border: 2px solid #f59e0b; border-radius: 14px;">
+        <h4 align="center" style="color: #f59e0b; margin: 4px 0 10px 0;">
+          <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" width="22" valign="middle"/>
+          &nbsp;BACKEND, CLOUD & DATABASES
+        </h4>
         <p align="center">
           <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
           <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white" />
@@ -140,8 +169,11 @@
 <div align="center">
   <table width="100%" border="0" cellspacing="8" cellpadding="12">
     <tr>
-      <td bgcolor="#000000" width="50%" valign="top" style="border: 2px solid #00f2fe; border-radius: 14px;">
-        <h3 align="center" style="color: #00f2fe; margin-top: 0;">🕹️ KRIDO</h3>
+      <td bgcolor="#000000" width="50%" valign="top" style="border: 2px solid #00f2fe; border-radius: 16px;">
+        <h3 align="center" style="color: #00f2fe; margin-top: 0;">
+          <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Video%20Game.png" width="26" valign="middle"/>
+          &nbsp;KRIDO
+        </h3>
         <p align="center" style="color: #cccccc; font-size: 14px;">
           <b>Kids Educational Mini-Game Universe</b><br/>
           An offline-first Flutter game engine packed with <b>28+ interactive mini-games</b> for kids ages 3–8. Zero latency, 60 FPS graphics, COPPA & Google Play Families policy compliant.
@@ -152,8 +184,11 @@
           </a>
         </p>
       </td>
-      <td bgcolor="#000000" width="50%" valign="top" style="border: 2px solid #00c853; border-radius: 14px;">
-        <h3 align="center" style="color: #00c853; margin-top: 0;">⚡ YouPI-PG</h3>
+      <td bgcolor="#000000" width="50%" valign="top" style="border: 2px solid #00c853; border-radius: 16px;">
+        <h3 align="center" style="color: #00c853; margin-top: 0;">
+          <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Fire.png" width="26" valign="middle"/>
+          &nbsp;YouPI-PG
+        </h3>
         <p align="center" style="color: #cccccc; font-size: 14px;">
           <b>Zero-Fee Self-Hosted UPI Gateway</b><br/>
           Universal payment engine with dynamic QR generation, WhatsApp OTP verification, automated webhook notifications, and zero platform cuts.
@@ -166,8 +201,11 @@
       </td>
     </tr>
     <tr>
-      <td bgcolor="#000000" width="50%" valign="top" style="border: 2px solid #a855f7; border-radius: 14px;">
-        <h3 align="center" style="color: #a855f7; margin-top: 0;">🛡️ Strix & Security Tools</h3>
+      <td bgcolor="#000000" width="50%" valign="top" style="border: 2px solid #a855f7; border-radius: 16px;">
+        <h3 align="center" style="color: #a855f7; margin-top: 0;">
+          <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" width="26" valign="middle"/>
+          &nbsp;Strix & Security Tools
+        </h3>
         <p align="center" style="color: #cccccc; font-size: 14px;">
           <b>Autonomous AI Pentesting & Security Hardening</b><br/>
           Automated multi-vector vulnerability analyzer testing mobile & web infrastructure before threat actors strike.
@@ -178,8 +216,11 @@
           </a>
         </p>
       </td>
-      <td bgcolor="#000000" width="50%" valign="top" style="border: 2px solid #ff3366; border-radius: 14px;">
-        <h3 align="center" style="color: #ff3366; margin-top: 0;">🧩 ArrowPuzzle</h3>
+      <td bgcolor="#000000" width="50%" valign="top" style="border: 2px solid #ff3366; border-radius: 16px;">
+        <h3 align="center" style="color: #ff3366; margin-top: 0;">
+          <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Trophy.png" width="26" valign="middle"/>
+          &nbsp;ArrowPuzzle
+        </h3>
         <p align="center" style="color: #cccccc; font-size: 14px;">
           <b>Minimalist Spatial Logic Game</b><br/>
           Pure tactile brain-teaser crafted with physics-based feedback loops, smooth render pipelines, and zero distractions.
@@ -201,10 +242,10 @@
 <div align="center">
   <table width="100%" border="0" cellspacing="6" cellpadding="0">
     <tr>
-      <td bgcolor="#000000" width="50%" align="center" style="border: 1px solid #00f2fe; border-radius: 14px; padding: 10px;">
+      <td bgcolor="#000000" width="50%" align="center" style="border: 2px solid #00f2fe; border-radius: 14px; padding: 10px;">
         <img src="https://github-readme-stats.vercel.app/api?username=OPSHARP&show_icons=true&hide_border=true&bg_color=000000&title_color=00f2fe&icon_color=38ef7d&text_color=ffffff" width="100%" alt="OPSHARP's Stats" />
       </td>
-      <td bgcolor="#000000" width="50%" align="center" style="border: 1px solid #a855f7; border-radius: 14px; padding: 10px;">
+      <td bgcolor="#000000" width="50%" align="center" style="border: 2px solid #a855f7; border-radius: 14px; padding: 10px;">
         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OPSHARP&layout=compact&hide_border=true&bg_color=000000&title_color=a855f7&text_color=ffffff" width="100%" alt="Top Languages" />
       </td>
     </tr>
@@ -216,7 +257,7 @@
 <div align="center">
   <table width="100%" border="0" cellspacing="0" cellpadding="0">
     <tr>
-      <td bgcolor="#000000" align="center" style="border: 1px solid #00c853; border-radius: 14px; padding: 10px;">
+      <td bgcolor="#000000" align="center" style="border: 2px solid #00c853; border-radius: 14px; padding: 10px;">
         <img src="https://streak-stats.demolab.com/?user=OPSHARP&hide_border=true&background=000000&ring=00f2fe&fire=ff7b00&currStreakLabel=00f2fe&sideLabels=ffffff&sideNums=38ef7d&currStreakNum=00f2fe" width="100%" alt="Streak Stats" />
       </td>
     </tr>
@@ -225,7 +266,7 @@
 
 ---
 
-### 📈 GitHub Contribution Activity Matrix
+### 📈 Live GitHub Contribution Matrix
 
 <div align="center">
   <table width="100%" border="0" cellspacing="0" cellpadding="0">
