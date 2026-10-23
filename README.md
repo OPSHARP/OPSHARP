@@ -32,6 +32,10 @@
     "Autonomous AI Systems, LLM Tooling & Multi-Agent Architecture",
     "High-Concurrency Backends & Offline-First Systems"
   ],
+  "socials": {
+    "youtube": "@tarun_ent",
+    "instagram": "@tarun_ent"
+  },
   "current_focus": "Curating top-tier open-source tools & interactive experiences",
   "philosophy": "The best code is elegant, purposeful, and delivers sheer delight."
 }
@@ -141,16 +145,20 @@
 
 <div align="center">
 
-  <a href="https://github.com/OPSHARP">
+  <a href="https://youtube.com/@tarun_ent" target="_blank">
+    <img src="https://img.shields.io/badge/YouTube-@tarun__ent-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
+  </a>
+  &nbsp;
+  <a href="https://instagram.com/tarun_ent" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-@tarun__ent-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/OPSHARP" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-OPSHARP-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   &nbsp;
   <a href="mailto:sachinraghav9090@gmail.com">
     <img src="https://img.shields.io/badge/Email-Get_In_Touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/OPSHARP?tab=repositories">
-    <img src="https://img.shields.io/badge/Projects-Explore_All-00F2FE?style=for-the-badge&logo=codespaces&logoColor=black" alt="Projects" />
   </a>
 
 </div>
