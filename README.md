@@ -30,7 +30,7 @@
       <img src="https://img.shields.io/badge/Email-tarunvip934@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
     </a>
     &nbsp;
-    <img src="https://komarev.com/ghpvc/?username=OPSHARP&color=00f2fe&style=for-the-badge&label=VISITOR+RADAR&labelColor=0d1117" alt="Visitor Counter" />
+    <img src="https://hits.sh/github.com/OPSHARP.svg?style=for-the-badge&label=VISITOR+RADAR&color=00f2fe&labelColor=000000" alt="Visitor Counter" />
   </p>
 
 </div>
@@ -225,13 +225,15 @@
 
 ---
 
-### 📈 Activity Matrix
+### 📈 GitHub Contribution Activity Matrix
 
 <div align="center">
   <table width="100%" border="0" cellspacing="0" cellpadding="0">
     <tr>
-      <td bgcolor="#000000" align="center" style="border: 1px solid #00f2fe; border-radius: 14px; padding: 12px;">
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=OPSHARP&theme=react-dark&hide_border=true&bg_color=000000&color=00f2fe&line=38ef7d&point=00f2fe" width="100%" alt="Activity Graph" />
+      <td bgcolor="#000000" align="center" style="border: 2px solid #00f2fe; border-radius: 14px; padding: 20px 14px;">
+        <a href="https://github.com/OPSHARP" target="_blank">
+          <img src="https://ghchart.rshah.org/00f2fe/OPSHARP" alt="OPSHARP's GitHub Contribution Matrix" width="100%" />
+        </a>
       </td>
     </tr>
   </table>
