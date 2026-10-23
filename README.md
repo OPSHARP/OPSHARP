@@ -7,9 +7,9 @@
 
   <br/>
 
-  <!-- 3D MULTICOLOR TYPING ANIMATION -->
+  <!-- 3D RED TYPING ANIMATION -->
   <a href="https://github.com/OPSHARP">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2800&pause=1000&color=00F2FE&multiline=false&center=true&vCenter=true&repeat=true&width=700&height=45&lines=%F0%9F%91%8B+Hey+there!+I'm+Tarun+(OPSHARP)+%E2%80%94+25+y%2Fo+Freelance+Developer;%F0%9F%9A%80+27%2B+Production+Apps+%26+Games+Published+on+Google+Play;%F0%9F%93%B1+Building+Custom+Mobile+Apps+(Flutter+%26+Android);%F0%9F%8C%90+Developing+Modern+Web+Apps%2C+Websites+%26+Landing+Pages;%F0%9F%A7%A9+Crafting+Turnkey+App+Templates+%26+UI+Design+Systems;%F0%9F%92%BC+Open+for+Freelance+Projects+%26+Worldwide+Client+Work!" alt="3D Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2800&pause=1000&color=FF0033&multiline=false&center=true&vCenter=true&repeat=true&width=700&height=45&lines=%F0%9F%91%8B+Hey+there!+I'm+Tarun+(OPSHARP)+%E2%80%94+25+y%2Fo+Freelance+Developer;%F0%9F%9A%80+27%2B+Production+Apps+%26+Games+Published+on+Google+Play;%F0%9F%93%B1+Building+Custom+Mobile+Apps+(Flutter+%26+Android);%F0%9F%8C%90+Developing+Modern+Web+Apps%2C+Websites+%26+Landing+Pages;%F0%9F%A7%A9+Crafting+Turnkey+App+Templates+%26+UI+Design+Systems;%F0%9F%92%BC+Open+for+Freelance+Projects+%26+Worldwide+Client+Work!" alt="3D Typing SVG" />
   </a>
 
   <br/><br/>
