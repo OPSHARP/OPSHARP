@@ -23,23 +23,14 @@
 
 ### 🚀 About Me
 
-```json
-{
-  "developer": "OPSHARP",
-  "passion": "Building software that feels magical, fast, and resilient",
-  "specialties": [
-    "Native & Cross-Platform Mobile Apps (Flutter, Android)",
-    "Autonomous AI Systems, LLM Tooling & Multi-Agent Architecture",
-    "High-Concurrency Backends & Offline-First Systems"
-  ],
-  "socials": {
-    "youtube": "@tarun_ent",
-    "instagram": "@tarun_ent"
-  },
-  "current_focus": "Curating top-tier open-source tools & interactive experiences",
-  "philosophy": "The best code is elegant, purposeful, and delivers sheer delight."
-}
-```
+> *“Crafting software that feels magical, fast, and resilient — built to inspire.”*
+
+- 👨‍💻 **Identity & Role:** Mobile Architect & AI Systems Creator (`@OPSHARP`)
+- 📱 **Mobile Engineering:** Building fluid, high-performance **Flutter** & **Android** experiences
+- 🤖 **AI & Intelligence:** Architecting autonomous agents, multi-agent workflows & LLM tools
+- ⚡ **Architecture:** Deep focus on clean architecture, state management & offline-first systems
+- 🎯 **Current Mission:** Curating and releasing top-tier open-source tools for global developers
+- 🎬 **Creator Presence:** Sharing tech & creative journeys on [YouTube](https://youtube.com/@tarun_ent) and [Instagram](https://instagram.com/tarun_ent)
 
 ---
 
