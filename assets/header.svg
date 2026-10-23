@@ -1,0 +1,253 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="cyber-bg" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#0a1128" stop-opacity="0.9"/>
+      <stop offset="45%" stop-color="#050814" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="1"/>
+    </radialGradient>
+
+    <!-- Neon Glow Filters -->
+    <filter id="neon-glow-cyan" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur1"/>
+      <feGaussianBlur stdDeviation="20" result="blur2"/>
+      <feMerge>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="blur1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="neon-glow-purple" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="card-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#00f2fe" flood-opacity="0.25"/>
+    </filter>
+
+    <!-- Text 3D Face Gradients -->
+    <linearGradient id="text-face" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="30%" stop-color="#e0f7fa"/>
+      <stop offset="65%" stop-color="#00f2fe"/>
+      <stop offset="100%" stop-color="#0080ff"/>
+    </linearGradient>
+
+    <linearGradient id="text-stroke" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#00f2fe"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+
+    <linearGradient id="neon-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="50%" stop-color="#38ef7d"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+
+    <linearGradient id="gold-pill" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+
+    <linearGradient id="laser-beam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00f2fe" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- 3D Perspective Grid Mask -->
+    <linearGradient id="grid-fade" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.45"/>
+      <stop offset="70%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="grid-mask">
+      <rect x="0" y="160" width="1200" height="220" fill="url(#grid-fade)"/>
+    </mask>
+
+    <style>
+      @keyframes laserMove {
+        0% { transform: translateX(-1200px); }
+        100% { transform: translateX(1200px); }
+      }
+      @keyframes pulseBeacon {
+        0%, 100% { r: 5px; opacity: 1; }
+        50% { r: 12px; opacity: 0.3; }
+      }
+      @keyframes floatTitle {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-3px); }
+      }
+      @keyframes glowGlow {
+        0%, 100% { opacity: 0.85; filter: drop-shadow(0 0 16px rgba(0,242,254,0.7)); }
+        50% { opacity: 1; filter: drop-shadow(0 0 28px rgba(0,242,254,0.95)) drop-shadow(0 0 45px rgba(168,85,247,0.5)); }
+      }
+      .laser-anim {
+        animation: laserMove 4s linear infinite;
+      }
+      .title-group {
+        animation: floatTitle 4s ease-in-out infinite;
+      }
+      .glowing-title {
+        animation: glowGlow 3s ease-in-out infinite;
+      }
+      .beacon-ring {
+        animation: pulseBeacon 2s infinite ease-out;
+      }
+    </style>
+  </defs>
+
+  <!-- PURE BLACK BACKGROUND -->
+  <rect width="1200" height="380" fill="#000000"/>
+  <rect width="1200" height="380" fill="url(#cyber-bg)"/>
+
+  <!-- 3D PERSPECTIVE CYBER GRID (GROUND PLANE) -->
+  <g mask="url(#grid-mask)">
+    <!-- Vanishing point (600, 160) -->
+    <!-- Perspective Rays -->
+    <line x1="600" y1="160" x2="-200" y2="380" stroke="#00f2fe" stroke-width="1.2"/>
+    <line x1="600" y1="160" x2="-50" y2="380" stroke="#00f2fe" stroke-width="1.2"/>
+    <line x1="600" y1="160" x2="100" y2="380" stroke="#00f2fe" stroke-width="1.2"/>
+    <line x1="600" y1="160" x2="250" y2="380" stroke="#00f2fe" stroke-width="1.2"/>
+    <line x1="600" y1="160" x2="400" y2="380" stroke="#00f2fe" stroke-width="1.2"/>
+    <line x1="600" y1="160" x2="520" y2="380" stroke="#00f2fe" stroke-width="1.2"/>
+    <line x1="600" y1="160" x2="600" y2="380" stroke="#00f2fe" stroke-width="1.5"/>
+    <line x1="600" y1="160" x2="680" y2="380" stroke="#00f2fe" stroke-width="1.2"/>
+    <line x1="600" y1="160" x2="800" y2="380" stroke="#00f2fe" stroke-width="1.2"/>
+    <line x1="600" y1="160" x2="950" y2="380" stroke="#00f2fe" stroke-width="1.2"/>
+    <line x1="600" y1="160" x2="1100" y2="380" stroke="#00f2fe" stroke-width="1.2"/>
+    <line x1="600" y1="160" x2="1250" y2="380" stroke="#00f2fe" stroke-width="1.2"/>
+    <line x1="600" y1="160" x2="1400" y2="380" stroke="#00f2fe" stroke-width="1.2"/>
+
+    <!-- Horizontal Horizontal Grid Lines (Perspective spacing) -->
+    <line x1="0" y1="180" x2="1200" y2="180" stroke="#00f2fe" stroke-width="0.8"/>
+    <line x1="0" y1="198" x2="1200" y2="198" stroke="#00f2fe" stroke-width="0.9"/>
+    <line x1="0" y1="220" x2="1200" y2="220" stroke="#00f2fe" stroke-width="1.0"/>
+    <line x1="0" y1="248" x2="1200" y2="248" stroke="#00f2fe" stroke-width="1.1"/>
+    <line x1="0" y1="284" x2="1200" y2="284" stroke="#00f2fe" stroke-width="1.2"/>
+    <line x1="0" y1="330" x2="1200" y2="330" stroke="#00f2fe" stroke-width="1.4"/>
+    <line x1="0" y1="375" x2="1200" y2="375" stroke="#00f2fe" stroke-width="1.6"/>
+  </g>
+
+  <!-- AMBIENT NEON GLOW SPHERES -->
+  <circle cx="200" cy="180" r="140" fill="#00f2fe" opacity="0.08" filter="url(#neon-glow-cyan)"/>
+  <circle cx="600" cy="160" r="180" fill="#8b5cf6" opacity="0.12" filter="url(#neon-glow-purple)"/>
+  <circle cx="1000" cy="180" r="140" fill="#00f2fe" opacity="0.08" filter="url(#neon-glow-cyan)"/>
+
+  <!-- CYBER HUD FRAME (TECH BRACKETS & BORDER) -->
+  <rect x="25" y="20" width="1150" height="340" rx="20" fill="none" stroke="#1f2937" stroke-width="1.5"/>
+  <rect x="25" y="20" width="1150" height="340" rx="20" fill="none" stroke="url(#neon-accent)" stroke-width="1.5" stroke-dasharray="120 40 40 40 80 800" opacity="0.8"/>
+
+  <!-- SCANNING LASER BEAM (TOP BORDER) -->
+  <g clip-path="url(#hud-clip)">
+    <rect x="25" y="19" width="350" height="3" fill="url(#laser-beam)" class="laser-anim"/>
+  </g>
+
+  <!-- CORNER ACCENTS (3D CHAMFERED BRACKETS) -->
+  <!-- Top Left -->
+  <path d="M 25 60 L 25 35 Q 25 20 40 20 L 75 20" fill="none" stroke="#00f2fe" stroke-width="3" filter="url(#neon-glow-cyan)"/>
+  <circle cx="45" cy="40" r="2.5" fill="#00f2fe"/>
+  <!-- Top Right -->
+  <path d="M 1125 20 L 1160 20 Q 1175 20 1175 35 L 1175 60" fill="none" stroke="#a855f7" stroke-width="3" filter="url(#neon-glow-purple)"/>
+  <circle cx="1155" cy="40" r="2.5" fill="#a855f7"/>
+  <!-- Bottom Left -->
+  <path d="M 25 320 L 25 345 Q 25 360 40 360 L 75 360" fill="none" stroke="#00f2fe" stroke-width="3" filter="url(#neon-glow-cyan)"/>
+  <circle cx="45" cy="340" r="2.5" fill="#00f2fe"/>
+  <!-- Bottom Right -->
+  <path d="M 1125 360 L 1160 360 Q 1175 360 1175 345 L 1175 320" fill="none" stroke="#38ef7d" stroke-width="3" filter="url(#neon-glow-cyan)"/>
+  <circle cx="1155" cy="340" r="2.5" fill="#38ef7d"/>
+
+  <!-- TOP HUD BAR: SYSTEM TELEMETRY & BEACON -->
+  <!-- Left Side: System ID -->
+  <g transform="translate(60, 48)">
+    <rect x="0" y="0" width="8" height="8" fill="#00f2fe"/>
+    <text x="16" y="8" fill="#00f2fe" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" letter-spacing="2">SYS.NODE // OPSHARP_V3.0</text>
+    <text x="230" y="8" fill="#64748b" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="600" letter-spacing="1.5">| LOC: IN // CLIENTS: WORLDWIDE</text>
+  </g>
+
+  <!-- Right Side: Live Status Beacon -->
+  <g transform="translate(940, 42)">
+    <rect x="0" y="0" width="195" height="26" rx="13" fill="#03150d" stroke="#00c853" stroke-width="1.2"/>
+    <circle cx="18" cy="13" r="5" fill="#00c853"/>
+    <circle cx="18" cy="13" r="8" fill="none" stroke="#00c853" stroke-width="1.5" class="beacon-ring" opacity="0.6"/>
+    <text x="32" y="17" fill="#38ef7d" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="800" letter-spacing="1.2">AVAILABLE FOR HIRE</text>
+  </g>
+
+  <!-- CENTER TOP FLOATING BADGE -->
+  <g transform="translate(430, 80)">
+    <rect x="0" y="0" width="340" height="28" rx="14" fill="#000000" stroke="url(#neon-accent)" stroke-width="1.2" filter="url(#card-shadow)"/>
+    <text x="170" y="18" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="800" text-anchor="middle" letter-spacing="2.5">
+      ⚡ TARUN <tspan fill="#00f2fe">•</tspan> 25 Y/O FREELANCE DEVELOPER ⚡
+    </text>
+  </g>
+
+  <!-- ==================== 3D OPSHARP TITLE ==================== -->
+  <g class="title-group" transform="translate(600, 195)">
+    <!-- 3D EXTRUSION SHADOW LAYERS (DEEP PERSPECTIVE PROJECTION) -->
+    <text x="0" y="14" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Montserrat', sans-serif" font-size="94" font-weight="900" text-anchor="middle" letter-spacing="18" fill="#001824" opacity="0.7">OPSHARP</text>
+    <text x="0" y="11" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Montserrat', sans-serif" font-size="94" font-weight="900" text-anchor="middle" letter-spacing="18" fill="#002d44" opacity="0.8">OPSHARP</text>
+    <text x="0" y="8" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Montserrat', sans-serif" font-size="94" font-weight="900" text-anchor="middle" letter-spacing="18" fill="#004566" opacity="0.9">OPSHARP</text>
+    <text x="0" y="5" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Montserrat', sans-serif" font-size="94" font-weight="900" text-anchor="middle" letter-spacing="18" fill="#006080">OPSHARP</text>
+    <text x="0" y="2" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Montserrat', sans-serif" font-size="94" font-weight="900" text-anchor="middle" letter-spacing="18" fill="#0088b3">OPSHARP</text>
+
+    <!-- 3D NEON GLOW BACKDROP -->
+    <text x="0" y="0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Montserrat', sans-serif" font-size="94" font-weight="900" text-anchor="middle" letter-spacing="18" fill="#00f2fe" filter="url(#neon-glow-cyan)" opacity="0.85">OPSHARP</text>
+
+    <!-- MAIN FOREGROUND TEXT FACE (CHROME + CYAN GRADIENT) -->
+    <text x="0" y="0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Montserrat', sans-serif" font-size="94" font-weight="900" text-anchor="middle" letter-spacing="18" fill="url(#text-face)" stroke="url(#text-stroke)" stroke-width="1.8" class="glowing-title">OPSHARP</text>
+  </g>
+
+  <!-- SUBTITLE / CAPABILITIES BANNER -->
+  <g transform="translate(600, 246)">
+    <text x="0" y="0" font-family="system-ui, -apple-system, sans-serif" font-size="14.5" font-weight="700" text-anchor="middle" letter-spacing="4" fill="#cbd5e1">
+      <tspan fill="#00f2fe">MOBILE APPS</tspan>
+      <tspan fill="#475569"> • </tspan>
+      <tspan fill="#38ef7d">WEB APPS &amp; SAAS</tspan>
+      <tspan fill="#475569"> • </tspan>
+      <tspan fill="#a855f7">LANDING PAGES</tspan>
+      <tspan fill="#475569"> • </tspan>
+      <tspan fill="#f59e0b">APP TEMPLATES</tspan>
+    </text>
+  </g>
+
+  <!-- BOTTOM 4 3D HOLOGRAPHIC CHIPS -->
+  <g transform="translate(140, 280)">
+    <!-- Chip 1: Play Store -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="200" height="38" rx="10" fill="#05150a" stroke="#00c853" stroke-width="1.5"/>
+      <circle cx="22" cy="19" r="6" fill="#00c853"/>
+      <text x="40" y="23" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" letter-spacing="0.5">27+ PLAY STORE APPS</text>
+    </g>
+
+    <!-- Chip 2: Flutter & Android -->
+    <g transform="translate(235, 0)">
+      <rect x="0" y="0" width="215" height="38" rx="10" fill="#04121f" stroke="#00f2fe" stroke-width="1.5"/>
+      <circle cx="22" cy="19" r="6" fill="#00f2fe"/>
+      <text x="40" y="23" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" letter-spacing="0.5">FLUTTER &amp; ANDROID PRO</text>
+    </g>
+
+    <!-- Chip 3: React & Fullstack -->
+    <g transform="translate(485, 0)">
+      <rect x="0" y="0" width="200" height="38" rx="10" fill="#130826" stroke="#a855f7" stroke-width="1.5"/>
+      <circle cx="22" cy="19" r="6" fill="#a855f7"/>
+      <text x="40" y="23" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" letter-spacing="0.5">REACT, NODE &amp; CLOUD</text>
+    </g>
+
+    <!-- Chip 4: Custom Projects -->
+    <g transform="translate(720, 0)">
+      <rect x="0" y="0" width="200" height="38" rx="10" fill="#1f1103" stroke="#f59e0b" stroke-width="1.5"/>
+      <circle cx="22" cy="19" r="6" fill="#f59e0b"/>
+      <text x="40" y="23" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" letter-spacing="0.5">CUSTOM CLIENT WORK</text>
+    </g>
+  </g>
+
+  <!-- BOTTOM SUBTLE DECORATION LINE -->
+  <line x1="150" y1="345" x2="1050" y2="345" stroke="#1f2937" stroke-width="1"/>
+  <circle cx="600" cy="345" r="3" fill="#00f2fe"/>
+</svg>

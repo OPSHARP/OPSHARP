@@ -1,7 +1,9 @@
 <div align="center">
 
-  <!-- 3D VIBRANT MULTICOLOR AURORA HEADER -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,8,14,20,24&height=280&section=header&text=✦%20TARUN%20%7C%20OPSHARP%20✦&fontSize=68&fontAlignY=36&fontColor=ffffff&animation=twinkling&desc=🚀%2025%20Y/O%20FREELANCER%20%E2%80%A2%2027+%20PLAY%20STORE%20APPS%20%E2%80%A2%20MOBILE,%20WEB%20%26%20TEMPLATES&descAlignY=58&descAlign=50&descColor=00F2FE" width="100%" alt="Tarun OPSHARP 3D Banner"/>
+  <!-- 3D CYBERPUNK HOLOGRAPHIC OPSHARP HEADER -->
+  <a href="https://github.com/OPSHARP">
+    <img src="https://raw.githubusercontent.com/OPSHARP/OPSHARP/main/assets/header.svg" width="100%" alt="✦ TARUN | OPSHARP ✦ 3D Cyberpunk Header" />
+  </a>
 
   <br/>
 
