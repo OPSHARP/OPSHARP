@@ -1,19 +1,23 @@
 <div align="center">
 
   <!-- 3D VIBRANT MULTICOLOR AURORA HEADER -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,8,14,20,24&height=280&section=header&text=✦%20OPSHARP%20✦&fontSize=74&fontAlignY=36&fontColor=ffffff&animation=twinkling&desc=🚀%2027+%20GOOGLE%20PLAY%20APPS%20%E2%80%A2%20MOBILE%20ARCHITECT%20%E2%80%A2%20AI%20SYSTEMS&descAlignY=58&descAlign=50&descColor=00F2FE" width="100%" alt="OPSHARP 3D Aurora Banner"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,8,14,20,24&height=280&section=header&text=✦%20TARUN%20%7C%20OPSHARP%20✦&fontSize=68&fontAlignY=36&fontColor=ffffff&animation=twinkling&desc=🚀%2025%20Y/O%20FREELANCER%20%E2%80%A2%2027+%20PLAY%20STORE%20APPS%20%E2%80%A2%20MOBILE,%20WEB%20%26%20TEMPLATES&descAlignY=58&descAlign=50&descColor=00F2FE" width="100%" alt="Tarun OPSHARP 3D Banner"/>
 
   <br/>
 
   <!-- 3D MULTICOLOR TYPING ANIMATION -->
   <a href="https://github.com/OPSHARP">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=23&duration=2800&pause=1000&color=00F2FE&multiline=false&center=true&vCenter=true&repeat=true&width=680&height=45&lines=%E2%9A%A1+ENTER+THE+3D+DIMENSION+OF+OPSHARP;%F0%9F%9A%80+27%2B+Production+Apps+%26+Games+Published+on+Google+Play;%F0%9F%93%B1+Architecting+Elite+Flutter%2C+Android+%26+High-FPS+UIs;%F0%9F%A4%96+Engineering+Autonomous+AI+Agents+%26+Intelligent+Tools;%F0%9F%94%A5+Turning+Complex+Logic+Into+Liquid+Digital+Experiences" alt="3D Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2800&pause=1000&color=00F2FE&multiline=false&center=true&vCenter=true&repeat=true&width=700&height=45&lines=%F0%9F%91%8B+Hey+there!+I'm+Tarun+(OPSHARP)+%E2%80%94+25+y%2Fo+Freelance+Developer;%F0%9F%9A%80+27%2B+Production+Apps+%26+Games+Published+on+Google+Play;%F0%9F%93%B1+Building+Custom+Mobile+Apps+(Flutter+%26+Android);%F0%9F%8C%90+Developing+Modern+Web+Apps%2C+Websites+%26+Landing+Pages;%F0%9F%A7%A9+Crafting+Turnkey+App+Templates+%26+UI+Design+Systems;%F0%9F%92%BC+Open+for+Freelance+Projects+%26+Worldwide+Client+Work!" alt="3D Typing SVG" />
   </a>
 
   <br/><br/>
 
   <!-- 3D FLOATING BADGES & LIVE TELEMETRY RADAR -->
   <p align="center">
+    <a href="mailto:tarunvip934@gmail.com?subject=Freelance%20Project%20Inquiry%20from%20GitHub">
+      <img src="https://img.shields.io/badge/FREELANCE-AVAILABLE_FOR_HIRE-00F2FE?style=for-the-badge&logo=upwork&logoColor=black" alt="Available for Freelance" />
+    </a>
+    &nbsp;
     <a href="https://play.google.com/store/apps/dev?id=4787166422555400493" target="_blank">
       <img src="https://img.shields.io/badge/Google_Play-27+_APPS_LIVE-00C853?style=for-the-badge&logo=googleplay&logoColor=white" alt="Google Play Dev" />
     </a>
@@ -49,28 +53,28 @@
         <hr style="border: 0; border-top: 1px solid #1f2937; margin: 12px 0;" />
         <table width="100%" border="0" cellspacing="5" cellpadding="6">
           <tr>
-            <td bgcolor="#0a0a0a" width="30%" style="border-left: 4px solid #00f2fe;"><b style="color: #00f2fe;">👨‍💻 Architect</b></td>
-            <td bgcolor="#0a0a0a" style="color: #ffffff;">Tarun (<b style="color: #38ef7d;">@OPSHARP</b>)</td>
+            <td bgcolor="#0a0a0a" width="30%" style="border-left: 4px solid #00f2fe;"><b style="color: #00f2fe;">👨‍💻 Identity</b></td>
+            <td bgcolor="#0a0a0a" style="color: #ffffff;">Tarun (25 y/o Freelance Full-Stack & Mobile Developer • <b style="color: #38ef7d;">@OPSHARP</b>)</td>
           </tr>
           <tr>
             <td bgcolor="#0a0a0a" width="30%" style="border-left: 4px solid #00c853;"><b style="color: #00c853;">🚀 Play Store</b></td>
-            <td bgcolor="#0a0a0a" style="color: #ffffff;"><b>27+ Published Android Apps</b> — <a href="https://play.google.com/store/apps/dev?id=4787166422555400493" target="_blank" style="color: #00f2fe; text-decoration: underline;"><b>View Portfolio ↗</b></a></td>
+            <td bgcolor="#0a0a0a" style="color: #ffffff;"><b>27+ Published Android Apps & Games</b> — <a href="https://play.google.com/store/apps/dev?id=4787166422555400493" target="_blank" style="color: #00f2fe; text-decoration: underline;"><b>View Play Store Portfolio ↗</b></a></td>
           </tr>
           <tr>
-            <td bgcolor="#0a0a0a" width="30%" style="border-left: 4px solid #38ef7d;"><b style="color: #38ef7d;">📱 Core Focus</b></td>
-            <td bgcolor="#0a0a0a" style="color: #ffffff;">60-120 FPS high-performance <b>Flutter</b> & <b>Android</b> apps with offline persistence</td>
+            <td bgcolor="#0a0a0a" width="30%" style="border-left: 4px solid #38ef7d;"><b style="color: #38ef7d;">💼 Freelancing</b></td>
+            <td bgcolor="#0a0a0a" style="color: #ffffff;">Custom Mobile Apps, Web Apps, Websites, Landing Pages & Turnkey App Templates</td>
           </tr>
           <tr>
-            <td bgcolor="#0a0a0a" width="30%" style="border-left: 4px solid #a855f7;"><b style="color: #a855f7;">🤖 AI Systems</b></td>
-            <td bgcolor="#0a0a0a" style="color: #ffffff;">Autonomous multi-agent workflows, Gemini API & Claude SDK</td>
+            <td bgcolor="#0a0a0a" width="30%" style="border-left: 4px solid #a855f7;"><b style="color: #a855f7;">📱 Core Tech</b></td>
+            <td bgcolor="#0a0a0a" style="color: #ffffff;">Flutter, Android (Kotlin), React, Vite, Node.js, Supabase, AWS, Firebase</td>
           </tr>
           <tr>
-            <td bgcolor="#0a0a0a" width="30%" style="border-left: 4px solid #f59e0b;"><b style="color: #f59e0b;">💾 Cloud & DB</b></td>
-            <td bgcolor="#0a0a0a" style="color: #ffffff;">Supabase, AWS, Firebase, PostgreSQL, SQLite</td>
+            <td bgcolor="#0a0a0a" width="30%" style="border-left: 4px solid #f59e0b;"><b style="color: #f59e0b;">⚡ Availability</b></td>
+            <td bgcolor="#0a0a0a" style="color: #ffffff;"><span style="color: #38ef7d;">●</span> Open for freelance gigs, custom contracts & client projects</td>
           </tr>
           <tr>
-            <td bgcolor="#0a0a0a" width="30%" style="border-left: 4px solid #ff007f;"><b style="color: #ff007f;">✉️ Direct Email</b></td>
-            <td bgcolor="#0a0a0a" style="color: #ffffff;"><a href="mailto:tarunvip934@gmail.com" style="color: #ff3366; text-decoration: underline;"><b>tarunvip934@gmail.com</b></a></td>
+            <td bgcolor="#0a0a0a" width="30%" style="border-left: 4px solid #ff007f;"><b style="color: #ff007f;">✉️ Direct Hire</b></td>
+            <td bgcolor="#0a0a0a" style="color: #ffffff;"><a href="mailto:tarunvip934@gmail.com?subject=Freelance%20Project%20Inquiry" style="color: #ff3366; text-decoration: underline;"><b>tarunvip934@gmail.com</b></a> (Fast response guaranteed)</td>
           </tr>
         </table>
       </td>
@@ -78,11 +82,71 @@
         <!-- 3D HOLOGRAPHIC FLOATING ASTRONAUT -->
         <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" alt="3D Holographic Developer in Space" style="border-radius: 12px;" />
         <p align="center" style="color: #a855f7; font-family: monospace; font-size: 12px; margin-top: 8px;">
-          ✦ HOLOGRAPHIC NEURAL LINK ACTIVE ✦
+          ✦ FREELANCE CORE ONLINE ✦
         </p>
       </td>
     </tr>
   </table>
+</div>
+
+---
+
+<!-- 3D FREELANCE SERVICES & WHAT I BUILD -->
+<div align="center">
+  <table width="100%" border="0" cellspacing="8" cellpadding="12">
+    <tr>
+      <td bgcolor="#000000" width="50%" valign="top" style="border: 2px solid #00f2fe; border-radius: 16px;">
+        <h4 align="center" style="color: #00f2fe; margin-top: 0;">
+          <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Mobile%20Phone%20with%20Arrow.png" width="24" valign="middle"/>
+          &nbsp;CUSTOM MOBILE APPS
+        </h4>
+        <p align="center" style="color: #cccccc; font-size: 13.5px;">
+          High-performance, fluid cross-platform <b>Flutter & Android</b> apps with 60-120 FPS animations, offline SQLite caching, clean state management, and Play Store publishing.
+        </p>
+      </td>
+      <td bgcolor="#000000" width="50%" valign="top" style="border: 2px solid #00c853; border-radius: 16px;">
+        <h4 align="center" style="color: #00c853; margin-top: 0;">
+          <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="24" valign="middle"/>
+          &nbsp;WEB APPS & FULL-STACK
+        </h4>
+        <p align="center" style="color: #cccccc; font-size: 13.5px;">
+          Modern, reactive full-stack web applications and SaaS platforms powered by <b>React, Vite, Node.js, Supabase & AWS</b> with real-time sync, auth, and payment gateways.
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td bgcolor="#000000" width="50%" valign="top" style="border: 2px solid #a855f7; border-radius: 16px;">
+        <h4 align="center" style="color: #a855f7; margin-top: 0;">
+          <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" width="24" valign="middle"/>
+          &nbsp;HIGH-CONVERTING LANDING PAGES
+        </h4>
+        <p align="center" style="color: #cccccc; font-size: 13.5px;">
+          Ultra-sleek, responsive, eye-popping websites and landing pages built to stun visitors and convert traffic with smooth micro-animations and lightning-fast load times.
+        </p>
+      </td>
+      <td bgcolor="#000000" width="50%" valign="top" style="border: 2px solid #ff3366; border-radius: 16px;">
+        <h4 align="center" style="color: #ff3366; margin-top: 0;">
+          <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Video%20Game.png" width="24" valign="middle"/>
+          &nbsp;APP TEMPLATES & STARTER KITS
+        </h4>
+        <p align="center" style="color: #cccccc; font-size: 13.5px;">
+          Modular, clean-architecture turnkey templates, UI kits, and mini-game boilerplates for creators, indie hackers, and startups looking to ship at warp speed.
+        </p>
+      </td>
+    </tr>
+  </table>
+
+  <br/>
+
+  <p align="center">
+    <a href="mailto:tarunvip934@gmail.com?subject=Freelance%20Project%20Inquiry%20from%20GitHub">
+      <img src="https://img.shields.io/badge/START_A_PROJECT_WITH_ME-00F2FE?style=for-the-badge&logo=googlechat&logoColor=black" alt="Start a Project with Tarun" />
+    </a>
+    &nbsp;&nbsp;
+    <a href="https://play.google.com/store/apps/dev?id=4787166422555400493" target="_blank">
+      <img src="https://img.shields.io/badge/EXPLORE_MY_27+_APPS-00C853?style=for-the-badge&logo=googleplay&logoColor=white" alt="Explore 27+ Apps" />
+    </a>
+  </p>
 </div>
 
 ---
