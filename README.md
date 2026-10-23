@@ -87,14 +87,12 @@
 
 ---
 
-### 🔮 3D Tactile Tech Arsenal
-
 <div align="center">
 
   <!-- 3D GLOSSY APP ICONS GRID VIA SKILLICONS -->
   <p align="center">
     <a href="https://skillicons.dev">
-      <img src="https://skillicons.dev/icons?i=flutter,dart,android,kotlin,react,ts,tailwind,nodejs,supabase,aws,firebase,sqlite,postgres,git,github,vscode&perline=8" alt="3D Tech Stack" />
+      <img src="https://skillicons.dev/icons?i=flutter,dart,androidstudio,kotlin,react,ts,tailwind,nodejs,supabase,aws,firebase,sqlite,postgres,git,github,vscode&perline=8" alt="3D Tech Stack" />
     </a>
   </p>
 
@@ -126,7 +124,7 @@
           <img src="https://img.shields.io/badge/Claude_AI-D97706?style=for-the-badge&logo=anthropic&logoColor=white" />
           <img src="https://img.shields.io/badge/Agentic_AI-8B5CF6?style=for-the-badge&logo=probot&logoColor=white" />
           <img src="https://img.shields.io/badge/LLM_Tooling-10B981?style=for-the-badge&logo=openai&logoColor=white" />
-          <img src="https://img.shields.io/badge/Multi--Agent-FF007F?style=for-the-badge&logo=robot&logoColor=white" />
+          <img src="https://img.shields.io/badge/Autonomous_AI-FF007F?style=for-the-badge&logo=probot&logoColor=white" />
         </p>
       </td>
     </tr>
@@ -236,8 +234,6 @@
 </div>
 
 ---
-
-### 📊 Pure Black 3D Telemetry & Stats
 
 <div align="center">
   <table width="100%" border="0" cellspacing="6" cellpadding="0">
