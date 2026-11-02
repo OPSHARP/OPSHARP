@@ -1,0 +1,307 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 440" width="100%" height="auto">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="prod-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050714"/>
+      <stop offset="50%" stop-color="#0b0f24"/>
+      <stop offset="100%" stop-color="#040612"/>
+    </linearGradient>
+
+    <!-- Colors -->
+    <linearGradient id="pink-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ec4899"/><stop offset="100%" stop-color="#f43f5e"/>
+    </linearGradient>
+    <linearGradient id="cyan-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE"/><stop offset="100%" stop-color="#38ef7d"/>
+    </linearGradient>
+    <linearGradient id="amber-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b"/><stop offset="100%" stop-color="#ff7b00"/>
+    </linearGradient>
+    <linearGradient id="green-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981"/><stop offset="100%" stop-color="#38ef7d"/>
+    </linearGradient>
+    <linearGradient id="purple-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7"/><stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+    <linearGradient id="blue-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6"/><stop offset="100%" stop-color="#00F2FE"/>
+    </linearGradient>
+
+    <!-- Animated Border Sheen -->
+    <linearGradient id="prod-sheen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.9"/>
+      <stop offset="30%" stop-color="#ec4899" stop-opacity="0.6"/>
+      <stop offset="60%" stop-color="#38ef7d" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#00F2FE" stop-opacity="0.9"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" from="0 0.5 0.5" to="360 0.5 0.5" dur="15s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <filter id="p-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Outer Animated Sheen Frame -->
+  <rect x="2" y="2" width="996" height="436" rx="18" fill="none" stroke="url(#prod-sheen)" stroke-width="2.2"/>
+
+  <!-- Background -->
+  <rect x="4" y="4" width="992" height="432" rx="16" fill="url(#prod-bg)"/>
+
+  <!-- Perspective Grid -->
+  <g opacity="0.04" stroke="#00F2FE" stroke-width="0.5">
+    <line x1="0" y1="70" x2="1000" y2="70"/><line x1="0" y1="250" x2="1000" y2="250"/>
+    <line x1="333" y1="0" x2="333" y2="440"/><line x1="666" y1="0" x2="666" y2="440"/>
+  </g>
+
+  <!-- Top Header Bar -->
+  <g transform="translate(35, 34)">
+    <circle cx="6" cy="6" r="4.5" fill="#38ef7d">
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="22" y="10" fill="#38ef7d" font-family="'Fira Code', monospace" font-size="12" font-weight="700" letter-spacing="1.5">
+      🚀 FLAGSHIP PRODUCTS &amp; PRODUCTION APPS // HIGH-IMPACT SYSTEMS
+    </text>
+    <text x="930" y="10" fill="#94a3b8" font-family="'Fira Code', monospace" font-size="11" font-weight="600" text-anchor="end">
+      27+ APPS ON GOOGLE PLAY ✦
+    </text>
+  </g>
+
+  <line x1="35" y1="52" x2="965" y2="52" stroke="#1f293d" stroke-width="1.2"/>
+
+  <!-- ══════════════════════════════════════════════════════════════════
+       ROW 1: 3 PRODUCTS
+       ══════════════════════════════════════════════════════════════════ -->
+
+  <!-- CARD 1: Try On Clothes AI (Top-Left) -->
+  <g transform="translate(35, 68)">
+    <rect x="0" y="0" width="295" height="165" rx="10" fill="#091024" stroke="#ec4899" stroke-width="1.2"/>
+    <!-- Icon & Title -->
+    <text x="14" y="28" font-size="20">👗</text>
+    <text x="44" y="24" fill="#ffffff" font-family="'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="800">
+      Try On Clothes AI
+    </text>
+    <rect x="225" y="10" width="56" height="18" rx="4" fill="#ec4899" opacity="0.15" stroke="#ec4899" stroke-width="0.7"/>
+    <text x="253" y="22" fill="#ec4899" font-family="'Fira Code', monospace" font-size="9" font-weight="700" text-anchor="middle">VTON AI</text>
+
+    <!-- Desc -->
+    <text x="14" y="54" fill="#cbd5e1" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">
+      AI Virtual Fitting Room Mobile App
+    </text>
+    <text x="14" y="74" fill="#94a3b8" font-family="'Segoe UI', Roboto, sans-serif" font-size="11">
+      Proprietary cosine alpha-blending
+    </text>
+    <text x="14" y="90" fill="#94a3b8" font-family="'Segoe UI', Roboto, sans-serif" font-size="11">
+      for 100% face identity lock.
+    </text>
+
+    <!-- Stack Pills -->
+    <g transform="translate(14, 115)">
+      <rect x="0" y="0" width="70" height="20" rx="4" fill="#141a2e" stroke="#1f293d" stroke-width="0.8"/>
+      <text x="35" y="14" fill="#00F2FE" font-family="'Fira Code', monospace" font-size="9.5" font-weight="600" text-anchor="middle">Flutter</text>
+
+      <rect x="76" y="0" width="85" height="20" rx="4" fill="#141a2e" stroke="#1f293d" stroke-width="0.8"/>
+      <text x="118" y="14" fill="#ec4899" font-family="'Fira Code', monospace" font-size="9.5" font-weight="600" text-anchor="middle">IDM-VTON</text>
+
+      <rect x="167" y="0" width="95" height="20" rx="4" fill="#141a2e" stroke="#1f293d" stroke-width="0.8"/>
+      <text x="214" y="14" fill="#38ef7d" font-family="'Fira Code', monospace" font-size="9.5" font-weight="600" text-anchor="middle">Coin Economy</text>
+    </g>
+
+    <!-- Bottom Accent Line -->
+    <rect x="0" y="161" width="295" height="4" rx="2" fill="url(#pink-grad)"/>
+  </g>
+
+  <!-- CARD 2: PrivaScan AI (Top-Center) -->
+  <g transform="translate(352, 68)">
+    <rect x="0" y="0" width="295" height="165" rx="10" fill="#091024" stroke="#00F2FE" stroke-width="1.2"/>
+    <!-- Icon & Title -->
+    <text x="14" y="28" font-size="20">📄</text>
+    <text x="44" y="24" fill="#ffffff" font-family="'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="800">
+      PrivaScan AI
+    </text>
+    <rect x="210" y="10" width="72" height="18" rx="4" fill="#00F2FE" opacity="0.15" stroke="#00F2FE" stroke-width="0.7"/>
+    <text x="246" y="22" fill="#00F2FE" font-family="'Fira Code', monospace" font-size="9" font-weight="700" text-anchor="middle">PLAY STORE</text>
+
+    <!-- Desc -->
+    <text x="14" y="54" fill="#cbd5e1" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">
+      Privacy-First On-Device Scanner
+    </text>
+    <text x="14" y="74" fill="#94a3b8" font-family="'Segoe UI', Roboto, sans-serif" font-size="11">
+      100% on-device ML Kit text extraction,
+    </text>
+    <text x="14" y="90" fill="#94a3b8" font-family="'Segoe UI', Roboto, sans-serif" font-size="11">
+      offline neural translation in 50+ langs.
+    </text>
+
+    <!-- Stack Pills -->
+    <g transform="translate(14, 115)">
+      <rect x="0" y="0" width="75" height="20" rx="4" fill="#141a2e" stroke="#1f293d" stroke-width="0.8"/>
+      <text x="37" y="14" fill="#00F2FE" font-family="'Fira Code', monospace" font-size="9.5" font-weight="600" text-anchor="middle">ML Kit</text>
+
+      <rect x="81" y="0" width="85" height="20" rx="4" fill="#141a2e" stroke="#1f293d" stroke-width="0.8"/>
+      <text x="123" y="14" fill="#38ef7d" font-family="'Fira Code', monospace" font-size="9.5" font-weight="600" text-anchor="middle">Zero Cloud</text>
+
+      <rect x="172" y="0" width="95" height="20" rx="4" fill="#141a2e" stroke="#1f293d" stroke-width="0.8"/>
+      <text x="219" y="14" fill="#c084fc" font-family="'Fira Code', monospace" font-size="9.5" font-weight="600" text-anchor="middle">Local OCR</text>
+    </g>
+
+    <!-- Bottom Accent Line -->
+    <rect x="0" y="161" width="295" height="4" rx="2" fill="url(#cyan-grad)"/>
+  </g>
+
+  <!-- CARD 3: KRIDO Kids Games (Top-Right) -->
+  <g transform="translate(670, 68)">
+    <rect x="0" y="0" width="295" height="165" rx="10" fill="#091024" stroke="#f59e0b" stroke-width="1.2"/>
+    <!-- Icon & Title -->
+    <text x="14" y="28" font-size="20">🎮</text>
+    <text x="44" y="24" fill="#ffffff" font-family="'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="800">
+      KRIDO Kids Games
+    </text>
+    <rect x="210" y="10" width="72" height="18" rx="4" fill="#f59e0b" opacity="0.15" stroke="#f59e0b" stroke-width="0.7"/>
+    <text x="246" y="22" fill="#f59e0b" font-family="'Fira Code', monospace" font-size="9" font-weight="700" text-anchor="middle">28+ GAMES</text>
+
+    <!-- Desc -->
+    <text x="14" y="54" fill="#cbd5e1" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">
+      Early Childhood Learning Games
+    </text>
+    <text x="14" y="74" fill="#94a3b8" font-family="'Segoe UI', Roboto, sans-serif" font-size="11">
+      COPPA-compliant, ad-safe Flutter app
+    </text>
+    <text x="14" y="90" fill="#94a3b8" font-family="'Segoe UI', Roboto, sans-serif" font-size="11">
+      with zero-latency audio engine.
+    </text>
+
+    <!-- Stack Pills -->
+    <g transform="translate(14, 115)">
+      <rect x="0" y="0" width="80" height="20" rx="4" fill="#141a2e" stroke="#1f293d" stroke-width="0.8"/>
+      <text x="40" y="14" fill="#00F2FE" font-family="'Fira Code', monospace" font-size="9.5" font-weight="600" text-anchor="middle">Riverpod</text>
+
+      <rect x="86" y="0" width="85" height="20" rx="4" fill="#141a2e" stroke="#1f293d" stroke-width="0.8"/>
+      <text x="128" y="14" fill="#38ef7d" font-family="'Fira Code', monospace" font-size="9.5" font-weight="600" text-anchor="middle">COPPA Safe</text>
+
+      <rect x="177" y="0" width="90" height="20" rx="4" fill="#141a2e" stroke="#1f293d" stroke-width="0.8"/>
+      <text x="222" y="14" fill="#fbbf24" font-family="'Fira Code', monospace" font-size="9.5" font-weight="600" text-anchor="middle">Offline Math</text>
+    </g>
+
+    <!-- Bottom Accent Line -->
+    <rect x="0" y="161" width="295" height="4" rx="2" fill="url(#amber-grad)"/>
+  </g>
+
+  <!-- ══════════════════════════════════════════════════════════════════
+       ROW 2: 3 PRODUCTS
+       ══════════════════════════════════════════════════════════════════ -->
+
+  <!-- CARD 4: YouPI Payment Gateway (Bottom-Left) -->
+  <g transform="translate(35, 248)">
+    <rect x="0" y="0" width="295" height="165" rx="10" fill="#091024" stroke="#10b981" stroke-width="1.2"/>
+    <!-- Icon & Title -->
+    <text x="14" y="28" font-size="20">💳</text>
+    <text x="44" y="24" fill="#ffffff" font-family="'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="800">
+      YouPI Payment Gateway
+    </text>
+    <rect x="215" y="10" width="66" height="18" rx="4" fill="#10b981" opacity="0.15" stroke="#10b981" stroke-width="0.7"/>
+    <text x="248" y="22" fill="#38ef7d" font-family="'Fira Code', monospace" font-size="9" font-weight="700" text-anchor="middle">0% FEES</text>
+
+    <!-- Desc -->
+    <text x="14" y="54" fill="#cbd5e1" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">
+      Zero-Fee Self-Hosted UPI Engine
+    </text>
+    <text x="14" y="74" fill="#94a3b8" font-family="'Segoe UI', Roboto, sans-serif" font-size="11">
+      Universal drop-in JS checkout, dynamic
+    </text>
+    <text x="14" y="90" fill="#94a3b8" font-family="'Segoe UI', Roboto, sans-serif" font-size="11">
+      QR payments &amp; WhatsApp webhooks.
+    </text>
+
+    <!-- Stack Pills -->
+    <g transform="translate(14, 115)">
+      <rect x="0" y="0" width="75" height="20" rx="4" fill="#141a2e" stroke="#1f293d" stroke-width="0.8"/>
+      <text x="37" y="14" fill="#38ef7d" font-family="'Fira Code', monospace" font-size="9.5" font-weight="600" text-anchor="middle">Node.js</text>
+
+      <rect x="81" y="0" width="75" height="20" rx="4" fill="#141a2e" stroke="#1f293d" stroke-width="0.8"/>
+      <text x="118" y="14" fill="#00F2FE" font-family="'Fira Code', monospace" font-size="9.5" font-weight="600" text-anchor="middle">Fast QR</text>
+
+      <rect x="162" y="0" width="105" height="20" rx="4" fill="#141a2e" stroke="#1f293d" stroke-width="0.8"/>
+      <text x="214" y="14" fill="#c084fc" font-family="'Fira Code', monospace" font-size="9.5" font-weight="600" text-anchor="middle">Webhook Bot</text>
+    </g>
+
+    <!-- Bottom Accent Line -->
+    <rect x="0" y="161" width="295" height="4" rx="2" fill="url(#green-grad)"/>
+  </g>
+
+  <!-- CARD 5: OmniRoute AI Gateway (Bottom-Center) -->
+  <g transform="translate(352, 248)">
+    <rect x="0" y="0" width="295" height="165" rx="10" fill="#091024" stroke="#a855f7" stroke-width="1.2"/>
+    <!-- Icon & Title -->
+    <text x="14" y="28" font-size="20">⚡</text>
+    <text x="44" y="24" fill="#ffffff" font-family="'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="800">
+      OmniRoute AI Gateway
+    </text>
+    <rect x="205" y="10" width="76" height="18" rx="4" fill="#a855f7" opacity="0.15" stroke="#a855f7" stroke-width="0.7"/>
+    <text x="243" y="22" fill="#c084fc" font-family="'Fira Code', monospace" font-size="9" font-weight="700" text-anchor="middle">375 PROVIDERS</text>
+
+    <!-- Desc -->
+    <text x="14" y="54" fill="#cbd5e1" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">
+      Unified Multi-Provider AI Gateway
+    </text>
+    <text x="14" y="74" fill="#94a3b8" font-family="'Segoe UI', Roboto, sans-serif" font-size="11">
+      Token compression saving 15–95%
+    </text>
+    <text x="14" y="90" fill="#94a3b8" font-family="'Segoe UI', Roboto, sans-serif" font-size="11">
+      on API costs with auto-fallback.
+    </text>
+
+    <!-- Stack Pills -->
+    <g transform="translate(14, 115)">
+      <rect x="0" y="0" width="75" height="20" rx="4" fill="#141a2e" stroke="#1f293d" stroke-width="0.8"/>
+      <text x="37" y="14" fill="#c084fc" font-family="'Fira Code', monospace" font-size="9.5" font-weight="600" text-anchor="middle">FastAPI</text>
+
+      <rect x="81" y="0" width="85" height="20" rx="4" fill="#141a2e" stroke="#1f293d" stroke-width="0.8"/>
+      <text x="123" y="14" fill="#00F2FE" font-family="'Fira Code', monospace" font-size="9.5" font-weight="600" text-anchor="middle">1.4K Models</text>
+
+      <rect x="172" y="0" width="95" height="20" rx="4" fill="#141a2e" stroke="#1f293d" stroke-width="0.8"/>
+      <text x="219" y="14" fill="#38ef7d" font-family="'Fira Code', monospace" font-size="9.5" font-weight="600" text-anchor="middle">Compression</text>
+    </g>
+
+    <!-- Bottom Accent Line -->
+    <rect x="0" y="161" width="295" height="4" rx="2" fill="url(#purple-grad)"/>
+  </g>
+
+  <!-- CARD 6: SharpLink / Strix (Bottom-Right) -->
+  <g transform="translate(670, 248)">
+    <rect x="0" y="0" width="295" height="165" rx="10" fill="#091024" stroke="#3b82f6" stroke-width="1.2"/>
+    <!-- Icon & Title -->
+    <text x="14" y="28" font-size="20">📡</text>
+    <text x="44" y="24" fill="#ffffff" font-family="'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="800">
+      SharpLink / Strix
+    </text>
+    <rect x="195" y="10" width="86" height="18" rx="4" fill="#3b82f6" opacity="0.15" stroke="#3b82f6" stroke-width="0.7"/>
+    <text x="238" y="22" fill="#60a5fa" font-family="'Fira Code', monospace" font-size="9" font-weight="700" text-anchor="middle">VIRTUAL CAM</text>
+
+    <!-- Desc -->
+    <text x="14" y="54" fill="#cbd5e1" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">
+      Phone-to-PC Mirroring &amp; Cam Suite
+    </text>
+    <text x="14" y="74" fill="#94a3b8" font-family="'Segoe UI', Roboto, sans-serif" font-size="11">
+      DirectShow virtual camera, multi-track
+    </text>
+    <text x="14" y="90" fill="#94a3b8" font-family="'Segoe UI', Roboto, sans-serif" font-size="11">
+      audio streaming &amp; zero-click mDNS.
+    </text>
+
+    <!-- Stack Pills -->
+    <g transform="translate(14, 115)">
+      <rect x="0" y="0" width="60" height="20" rx="4" fill="#141a2e" stroke="#1f293d" stroke-width="0.8"/>
+      <text x="30" y="14" fill="#60a5fa" font-family="'Fira Code', monospace" font-size="9.5" font-weight="600" text-anchor="middle">C++</text>
+
+      <rect x="66" y="0" width="85" height="20" rx="4" fill="#141a2e" stroke="#1f293d" stroke-width="0.8"/>
+      <text x="108" y="14" fill="#00F2FE" font-family="'Fira Code', monospace" font-size="9.5" font-weight="600" text-anchor="middle">DirectShow</text>
+
+      <rect x="157" y="0" width="110" height="20" rx="4" fill="#141a2e" stroke="#1f293d" stroke-width="0.8"/>
+      <text x="212" y="14" fill="#38ef7d" font-family="'Fira Code', monospace" font-size="9.5" font-weight="600" text-anchor="middle">mDNS Discovery</text>
+    </g>
+
+    <!-- Bottom Accent Line -->
+    <rect x="0" y="161" width="295" height="4" rx="2" fill="url(#blue-grad)"/>
+  </g>
+</svg>

@@ -112,6 +112,12 @@
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" width="28" valign="middle"/> &nbsp;Tech Arsenal & Toolchain
 
 <div align="center">
+  <img src="https://raw.githubusercontent.com/OPSHARP/OPSHARP/main/assets/tech-arsenal-3d.svg" width="100%" alt="OPSHARP 3D Tech Arsenal & Toolchain" />
+</div>
+
+<br/>
+
+<div align="center">
 
 | Domain | Stack & Technologies |
 | :--- | :--- |
@@ -132,6 +138,12 @@
      ═══════════════════════════════════════════════════════════════════ -->
 
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="28" valign="middle"/> &nbsp;Flagship Products & Production Apps
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/OPSHARP/OPSHARP/main/assets/products-3d.svg" width="100%" alt="OPSHARP 3D Flagship Products & Production Apps" />
+</div>
+
+<br/>
 
 <div align="center">
 
@@ -189,6 +201,12 @@
      ═══════════════════════════════════════════════════════════════════ -->
 
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Open%20Book.png" width="28" valign="middle"/> &nbsp;Open Source Highlights
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/OPSHARP/OPSHARP/main/assets/opensource-3d.svg" width="100%" alt="OPSHARP 3D Open Source Highlights & Dev Arsenal" />
+</div>
+
+<br/>
 
 <div align="center">
 

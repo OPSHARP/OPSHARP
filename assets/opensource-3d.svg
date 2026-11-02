@@ -1,0 +1,318 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 370" width="100%" height="auto">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="oss-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050714"/>
+      <stop offset="50%" stop-color="#0a0e24"/>
+      <stop offset="100%" stop-color="#040612"/>
+    </linearGradient>
+
+    <!-- Glowing Accent Neons -->
+    <linearGradient id="neon-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE"/><stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="neon-purple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7"/><stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+    <linearGradient id="neon-emerald" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981"/><stop offset="100%" stop-color="#00F2FE"/>
+    </linearGradient>
+    <linearGradient id="neon-magenta" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ec4899"/><stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="neon-amber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b"/><stop offset="100%" stop-color="#00F2FE"/>
+    </linearGradient>
+
+    <!-- Animated Sheen Border -->
+    <linearGradient id="oss-sheen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.9"/>
+      <stop offset="25%" stop-color="#a855f7" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#10b981" stop-opacity="0.8"/>
+      <stop offset="75%" stop-color="#ec4899" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#00F2FE" stop-opacity="0.9"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" from="0 0.5 0.5" to="360 0.5 0.5" dur="14s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- Laser Sweep -->
+    <linearGradient id="laser-sweep" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00F2FE" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#00F2FE" stop-opacity="0"/>
+      <animate attributeName="x1" values="-100%;200%" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0%;300%" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- Filter Glows -->
+    <filter id="oss-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="hud-blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+
+    <!-- Micro Dot Grid Pattern -->
+    <pattern id="oss-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="0.8" fill="#3b82f6" fill-opacity="0.15"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .font-mono { font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace; }
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .hover-lift { transition: transform 0.25s ease; }
+    .card-bg { fill: #070a1a; fill-opacity: 0.85; stroke: #1e2640; stroke-width: 1.2; }
+    .tag-bg { fill: #0d142d; stroke: #2a3b68; stroke-width: 0.8; rx: 4; }
+  </style>
+
+  <!-- Outer Canvas Container -->
+  <rect x="2" y="2" width="996" height="366" rx="20" fill="url(#oss-bg)"/>
+  <rect x="2" y="2" width="996" height="366" rx="20" fill="url(#oss-grid)"/>
+  <!-- Animated Sheen Border -->
+  <rect x="2" y="2" width="996" height="366" rx="20" fill="none" stroke="url(#oss-sheen)" stroke-width="2.5" opacity="0.95"/>
+
+  <!-- Top Ambient Glow Orbs -->
+  <circle cx="200" cy="40" r="140" fill="#00F2FE" opacity="0.08" filter="url(#hud-blur)"/>
+  <circle cx="800" cy="300" r="160" fill="#a855f7" opacity="0.08" filter="url(#hud-blur)"/>
+
+  <!-- Top HUD Header -->
+  <g transform="translate(30, 24)">
+    <!-- Terminal Icon -->
+    <rect x="0" y="0" width="34" height="30" rx="7" fill="#0d1430" stroke="#00F2FE" stroke-width="1.4"/>
+    <path d="M 10 9 L 16 15 L 10 21" fill="none" stroke="#00F2FE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="18" y1="21" x2="25" y2="21" stroke="#00F2FE" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Section Title & Subtitle -->
+    <text x="44" y="15" fill="#ffffff" class="font-sans" font-size="14" font-weight="800" letter-spacing="1.2">OPEN SOURCE ECOSYSTEM</text>
+    <text x="250" y="15" fill="#4FACFE" class="font-mono" font-size="11" font-weight="600">// PUBLIC REPOSITORIES &amp; DEV ARSENAL</text>
+    <text x="44" y="29" fill="#64748b" class="font-mono" font-size="9.5">ZERO-BLOAT ARCHITECTURE • REUSABLE MODULES • ACTIVE COMMUNITY REPOS</text>
+
+    <!-- Status Pill -->
+    <g transform="translate(775, 4)">
+      <rect x="0" y="0" width="165" height="22" rx="11" fill="#07191d" stroke="#00F2FE" stroke-width="1.2"/>
+      <circle cx="12" cy="11" r="4.5" fill="#00F2FE" filter="url(#oss-glow)">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="24" y="14.5" fill="#00F2FE" class="font-mono" font-size="9.5" font-weight="700" letter-spacing="0.5">5 PROTOCOLS ONLINE</text>
+    </g>
+  </g>
+
+  <!-- Circuit Trace Line Header -->
+  <line x1="30" y1="68" x2="970" y2="68" stroke="#1e2640" stroke-width="1"/>
+  <line x1="150" y1="68" x2="350" y2="68" stroke="url(#neon-cyan)" stroke-width="1.8">
+    <animate attributeName="x1" values="30;770;30" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="230;970;230" dur="8s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- ========================================== -->
+  <!-- ROW 1: 3 REPOSITORIES (Cards at Y=82)       -->
+  <!-- Width = 300 each, Gap = 20                 -->
+  <!-- ========================================== -->
+
+  <!-- CARD 1: free-for-dev (x=30, y=82, w=300, h=128) -->
+  <g transform="translate(30, 82)">
+    <rect x="0" y="0" width="300" height="128" rx="14" class="card-bg"/>
+    <rect x="0" y="0" width="300" height="128" rx="14" fill="none" stroke="url(#neon-cyan)" stroke-width="1.2" opacity="0.6"/>
+    <!-- Top Accent Bar -->
+    <path d="M 0 14 Q 0 0 14 0 L 286 0 Q 300 0 300 14 L 300 18 L 0 18 Z" fill="url(#neon-cyan)" opacity="0.18"/>
+    <line x1="14" y1="0" x2="80" y2="0" stroke="#00F2FE" stroke-width="3" filter="url(#oss-glow)"/>
+
+    <!-- Header Badge & Star -->
+    <g transform="translate(14, 14)">
+      <!-- Octocat/Repo Icon -->
+      <circle cx="10" cy="10" r="10" fill="#0d1f38" stroke="#00F2FE" stroke-width="1"/>
+      <path d="M 7 6 L 13 6 L 13 8 L 9 8 L 9 10 L 12 10 L 12 12 L 9 12 L 9 15 L 7 15 Z" fill="#00F2FE"/>
+      <!-- Repo Name -->
+      <text x="26" y="14" fill="#ffffff" class="font-sans" font-size="13" font-weight="700">free-for-dev</text>
+      <!-- Type Badge -->
+      <rect x="180" y="2" width="85" height="18" rx="9" fill="#061a29" stroke="#00F2FE" stroke-width="0.8"/>
+      <text x="222" y="14" fill="#00F2FE" class="font-mono" font-size="8.5" font-weight="700" text-anchor="middle">CLOUD // SAAS</text>
+    </g>
+
+    <!-- Subtitle Category -->
+    <text x="14" y="52" fill="#38bdf8" class="font-mono" font-size="9" font-weight="600" letter-spacing="0.8">DEVELOPER TIER DIRECTORY</text>
+    <!-- Description -->
+    <text x="14" y="70" fill="#94a3b8" class="font-sans" font-size="10.5" line-height="1.4">Curated list of SaaS, PaaS &amp; IaaS software</text>
+    <text x="14" y="85" fill="#94a3b8" class="font-sans" font-size="10.5">offering free tiers for engineers &amp; startups.</text>
+
+    <!-- Tech Badges -->
+    <g transform="translate(14, 98)">
+      <rect x="0" y="0" width="76" height="18" class="tag-bg"/>
+      <text x="38" y="12" fill="#60a5fa" class="font-mono" font-size="8.5" text-anchor="middle">Free-Tiers</text>
+
+      <rect x="82" y="0" width="82" height="18" class="tag-bg"/>
+      <text x="123" y="12" fill="#38bdf8" class="font-mono" font-size="8.5" text-anchor="middle">Cloud-Infra</text>
+
+      <rect x="170" y="0" width="98" height="18" class="tag-bg"/>
+      <text x="219" y="12" fill="#93c5fd" class="font-mono" font-size="8.5" text-anchor="middle">Open-Source ↗</text>
+    </g>
+  </g>
+
+  <!-- CARD 2: agentic-awesome-skills (x=350, y=82, w=300, h=128) -->
+  <g transform="translate(350, 82)">
+    <rect x="0" y="0" width="300" height="128" rx="14" class="card-bg"/>
+    <rect x="0" y="0" width="300" height="128" rx="14" fill="none" stroke="url(#neon-purple)" stroke-width="1.2" opacity="0.6"/>
+    <!-- Top Accent Bar -->
+    <path d="M 0 14 Q 0 0 14 0 L 286 0 Q 300 0 300 14 L 300 18 L 0 18 Z" fill="url(#neon-purple)" opacity="0.18"/>
+    <line x1="14" y1="0" x2="80" y2="0" stroke="#a855f7" stroke-width="3" filter="url(#oss-glow)"/>
+
+    <!-- Header Badge & Title -->
+    <g transform="translate(14, 14)">
+      <!-- AI Chip Icon -->
+      <circle cx="10" cy="10" r="10" fill="#200d38" stroke="#a855f7" stroke-width="1"/>
+      <rect x="6" y="6" width="8" height="8" rx="1.5" fill="#a855f7"/>
+      <!-- Repo Name -->
+      <text x="26" y="14" fill="#ffffff" class="font-sans" font-size="12" font-weight="700">agentic-awesome-skills</text>
+      <!-- Type Badge -->
+      <rect x="180" y="2" width="85" height="18" rx="9" fill="#240c33" stroke="#a855f7" stroke-width="0.8"/>
+      <text x="222" y="14" fill="#c084fc" class="font-mono" font-size="8.5" font-weight="700" text-anchor="middle">AI AGENTS</text>
+    </g>
+
+    <!-- Subtitle Category -->
+    <text x="14" y="52" fill="#c084fc" class="font-mono" font-size="9" font-weight="600" letter-spacing="0.8">MCP &amp; AUTONOMOUS CODING</text>
+    <!-- Description -->
+    <text x="14" y="70" fill="#94a3b8" class="font-sans" font-size="10.5">Curated autonomous agent tools, MCP skills</text>
+    <text x="14" y="85" fill="#94a3b8" class="font-sans" font-size="10.5">&amp; configs for next-gen agentic workflows.</text>
+
+    <!-- Tech Badges -->
+    <g transform="translate(14, 98)">
+      <rect x="0" y="0" width="76" height="18" class="tag-bg"/>
+      <text x="38" y="12" fill="#d8b4fe" class="font-mono" font-size="8.5" text-anchor="middle">Agent-MCP</text>
+
+      <rect x="82" y="0" width="82" height="18" class="tag-bg"/>
+      <text x="123" y="12" fill="#e879f9" class="font-mono" font-size="8.5" text-anchor="middle">Autonomous</text>
+
+      <rect x="170" y="0" width="98" height="18" class="tag-bg"/>
+      <text x="219" y="12" fill="#f472b6" class="font-mono" font-size="8.5" text-anchor="middle">Skills-Hub ↗</text>
+    </g>
+  </g>
+
+  <!-- CARD 3: ponytail (x=670, y=82, w=300, h=128) -->
+  <g transform="translate(670, 82)">
+    <rect x="0" y="0" width="300" height="128" rx="14" class="card-bg"/>
+    <rect x="0" y="0" width="300" height="128" rx="14" fill="none" stroke="url(#neon-emerald)" stroke-width="1.2" opacity="0.6"/>
+    <!-- Top Accent Bar -->
+    <path d="M 0 14 Q 0 0 14 0 L 286 0 Q 300 0 300 14 L 300 18 L 0 18 Z" fill="url(#neon-emerald)" opacity="0.18"/>
+    <line x1="14" y1="0" x2="80" y2="0" stroke="#10b981" stroke-width="3" filter="url(#oss-glow)"/>
+
+    <!-- Header Badge & Title -->
+    <g transform="translate(14, 14)">
+      <!-- Memory Core Icon -->
+      <circle cx="10" cy="10" r="10" fill="#092820" stroke="#10b981" stroke-width="1"/>
+      <circle cx="10" cy="10" r="4" fill="#10b981"/>
+      <!-- Repo Name -->
+      <text x="26" y="14" fill="#ffffff" class="font-sans" font-size="13" font-weight="700">ponytail</text>
+      <!-- Type Badge -->
+      <rect x="180" y="2" width="85" height="18" rx="9" fill="#09291f" stroke="#10b981" stroke-width="0.8"/>
+      <text x="222" y="14" fill="#34d399" class="font-mono" font-size="8.5" font-weight="700" text-anchor="middle">PERSISTENCE</text>
+    </g>
+
+    <!-- Subtitle Category -->
+    <text x="14" y="52" fill="#34d399" class="font-mono" font-size="9" font-weight="600" letter-spacing="0.8">AGENT MEMORY &amp; LOGGING</text>
+    <!-- Description -->
+    <text x="14" y="70" fill="#94a3b8" class="font-sans" font-size="10.5">Persistent context-preserving runtime toolkit</text>
+    <text x="14" y="85" fill="#94a3b8" class="font-sans" font-size="10.5">&amp; auto logger for multi-project dev agents.</text>
+
+    <!-- Tech Badges -->
+    <g transform="translate(14, 98)">
+      <rect x="0" y="0" width="76" height="18" class="tag-bg"/>
+      <text x="38" y="12" fill="#6ee7b7" class="font-mono" font-size="8.5" text-anchor="middle">Memory-FS</text>
+
+      <rect x="82" y="0" width="82" height="18" class="tag-bg"/>
+      <text x="123" y="12" fill="#34d399" class="font-mono" font-size="8.5" text-anchor="middle">Context-Logs</text>
+
+      <rect x="170" y="0" width="98" height="18" class="tag-bg"/>
+      <text x="219" y="12" fill="#a7f3d0" class="font-mono" font-size="8.5" text-anchor="middle">Dev-Agent ↗</text>
+    </g>
+  </g>
+
+  <!-- ========================================== -->
+  <!-- ROW 2: 2 REPOSITORIES (Cards at Y=222)       -->
+  <!-- Width = 460 each, Gap = 20                 -->
+  <!-- ========================================== -->
+
+  <!-- CARD 4: unslop (x=30, y=222, w=460, h=128) -->
+  <g transform="translate(30, 222)">
+    <rect x="0" y="0" width="460" height="128" rx="14" class="card-bg"/>
+    <rect x="0" y="0" width="460" height="128" rx="14" fill="none" stroke="url(#neon-magenta)" stroke-width="1.2" opacity="0.65"/>
+    <!-- Top Accent Bar -->
+    <path d="M 0 14 Q 0 0 14 0 L 446 0 Q 460 0 460 14 L 460 18 L 0 18 Z" fill="url(#neon-magenta)" opacity="0.18"/>
+    <line x1="14" y1="0" x2="110" y2="0" stroke="#ec4899" stroke-width="3" filter="url(#oss-glow)"/>
+
+    <!-- Header Badge & Title -->
+    <g transform="translate(14, 14)">
+      <!-- Shield/Broom Icon -->
+      <circle cx="10" cy="10" r="10" fill="#2d0c24" stroke="#ec4899" stroke-width="1"/>
+      <path d="M 6 8 L 10 5 L 14 8 L 14 12 Q 14 15 10 16 Q 6 15 6 12 Z" fill="#ec4899"/>
+      <!-- Repo Name -->
+      <text x="28" y="14" fill="#ffffff" class="font-sans" font-size="14" font-weight="800">unslop</text>
+      <text x="90" y="14" fill="#f472b6" class="font-mono" font-size="9.5" font-weight="700">// AI CODE HYGIENE &amp; ANTI-SLOP LINTER</text>
+      <!-- Status Badge -->
+      <rect x="330" y="2" width="100" height="18" rx="9" fill="#260b1f" stroke="#ec4899" stroke-width="0.8"/>
+      <text x="380" y="14" fill="#f472b6" class="font-mono" font-size="8.5" font-weight="700" text-anchor="middle">QUALITY ENGINE</text>
+    </g>
+
+    <!-- Description -->
+    <text x="14" y="52" fill="#fb7185" class="font-mono" font-size="9.5" font-weight="600" letter-spacing="0.8">DETERMINISTIC CODE REVIEW &amp; HALLUCINATION SCRUBBER</text>
+    <text x="14" y="72" fill="#94a3b8" class="font-sans" font-size="11">Automated engine eliminating defensive clutter, fake imports, unnecessary</text>
+    <text x="14" y="87" fill="#94a3b8" class="font-sans" font-size="11">try/catches &amp; synthetic anti-patterns produced by LLM coding generators.</text>
+
+    <!-- Tech Badges -->
+    <g transform="translate(14, 98)">
+      <rect x="0" y="0" width="85" height="18" class="tag-bg"/>
+      <text x="42" y="12" fill="#f472b6" class="font-mono" font-size="8.5" text-anchor="middle">AI-Audit</text>
+
+      <rect x="91" y="0" width="95" height="18" class="tag-bg"/>
+      <text x="138" y="12" fill="#fb7185" class="font-mono" font-size="8.5" text-anchor="middle">Zero-Bloat</text>
+
+      <rect x="192" y="0" width="105" height="18" class="tag-bg"/>
+      <text x="244" y="12" fill="#fda4af" class="font-mono" font-size="8.5" text-anchor="middle">Clean-Arch</text>
+
+      <rect x="303" y="0" width="128" height="18" class="tag-bg"/>
+      <text x="367" y="12" fill="#fbcfe8" class="font-mono" font-size="8.5" text-anchor="middle">Explore Repo ↗</text>
+    </g>
+  </g>
+
+  <!-- CARD 5: ArrowPuzzle (x=510, y=222, w=460, h=128) -->
+  <g transform="translate(510, 222)">
+    <rect x="0" y="0" width="460" height="128" rx="14" class="card-bg"/>
+    <rect x="0" y="0" width="460" height="128" rx="14" fill="none" stroke="url(#neon-amber)" stroke-width="1.2" opacity="0.65"/>
+    <!-- Top Accent Bar -->
+    <path d="M 0 14 Q 0 0 14 0 L 446 0 Q 460 0 460 14 L 460 18 L 0 18 Z" fill="url(#neon-amber)" opacity="0.18"/>
+    <line x1="14" y1="0" x2="110" y2="0" stroke="#f59e0b" stroke-width="3" filter="url(#oss-glow)"/>
+
+    <!-- Header Badge & Title -->
+    <g transform="translate(14, 14)">
+      <!-- Arrow Game Icon -->
+      <circle cx="10" cy="10" r="10" fill="#2e1d05" stroke="#f59e0b" stroke-width="1"/>
+      <path d="M 7 10 L 13 10 M 11 7 L 14 10 L 11 13" fill="none" stroke="#f59e0b" stroke-width="1.8" stroke-linecap="round"/>
+      <!-- Repo Name -->
+      <text x="28" y="14" fill="#ffffff" class="font-sans" font-size="14" font-weight="800">ArrowPuzzle</text>
+      <text x="130" y="14" fill="#fbbf24" class="font-mono" font-size="9.5" font-weight="700">// FLUTTER 60 FPS ENGINE</text>
+      <!-- Status Badge -->
+      <rect x="330" y="2" width="100" height="18" rx="9" fill="#2b1a03" stroke="#f59e0b" stroke-width="0.8"/>
+      <text x="380" y="14" fill="#fbbf24" class="font-mono" font-size="8.5" font-weight="700" text-anchor="middle">TACTILE GAME</text>
+    </g>
+
+    <!-- Description -->
+    <text x="14" y="52" fill="#fbbf24" class="font-mono" font-size="9.5" font-weight="600" letter-spacing="0.8">MINIMALIST DIRECTIONAL LOGIC PUZZLE</text>
+    <text x="14" y="72" fill="#94a3b8" class="font-sans" font-size="11">Minimalist directional logic puzzle crafted with Flutter &amp; Dart 3,</text>
+    <text x="14" y="87" fill="#94a3b8" class="font-sans" font-size="11">featuring zero-latency input dispatch, haptic feedback &amp; mathematical solver.</text>
+
+    <!-- Tech Badges -->
+    <g transform="translate(14, 98)">
+      <rect x="0" y="0" width="85" height="18" class="tag-bg"/>
+      <text x="42" y="12" fill="#fbbf24" class="font-mono" font-size="8.5" text-anchor="middle">Flutter-3</text>
+
+      <rect x="91" y="0" width="85" height="18" class="tag-bg"/>
+      <text x="133" y="12" fill="#fde68a" class="font-mono" font-size="8.5" text-anchor="middle">Dart-3</text>
+
+      <rect x="182" y="0" width="95" height="18" class="tag-bg"/>
+      <text x="229" y="12" fill="#38bdf8" class="font-mono" font-size="8.5" text-anchor="middle">60-FPS UI</text>
+
+      <rect x="283" y="0" width="148" height="18" class="tag-bg"/>
+      <text x="357" y="12" fill="#fed7aa" class="font-mono" font-size="8.5" text-anchor="middle">Play &amp; Build ↗</text>
+    </g>
+  </g>
+</svg>
