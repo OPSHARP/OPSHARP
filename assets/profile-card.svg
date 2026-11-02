@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="100%" height="auto">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a14"/>
+      <stop offset="50%" stop-color="#0e0e24"/>
+      <stop offset="100%" stop-color="#080812"/>
+    </linearGradient>
+
+    <!-- Neon Accents -->
+    <linearGradient id="cyan-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE"/>
+      <stop offset="100%" stop-color="#4FACFE"/>
+    </linearGradient>
+
+    <linearGradient id="purple-pink" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+
+    <linearGradient id="green-emerald" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#38ef7d"/>
+    </linearGradient>
+
+    <!-- Sheen Border Sweep -->
+    <linearGradient id="sheen-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.8"/>
+      <stop offset="35%" stop-color="#a855f7" stop-opacity="0.4"/>
+      <stop offset="70%" stop-color="#ec4899" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#00F2FE" stop-opacity="0.8"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" from="0 0.5 0.5" to="360 0.5 0.5" dur="10s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="soft-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Outer Animated Border -->
+  <rect x="2" y="2" width="996" height="356" rx="20" fill="none" stroke="url(#sheen-border)" stroke-width="2.5" opacity="0.9"/>
+
+  <!-- Card Background -->
+  <rect x="5" y="5" width="990" height="350" rx="18" fill="url(#card-bg)"/>
+
+  <!-- Subtle Cyber Grid -->
+  <g opacity="0.04" stroke="#00F2FE" stroke-width="0.5">
+    <line x1="0" y1="60" x2="1000" y2="60"/>
+    <line x1="0" y1="120" x2="1000" y2="120"/>
+    <line x1="0" y1="180" x2="1000" y2="180"/>
+    <line x1="0" y1="240" x2="1000" y2="240"/>
+    <line x1="0" y1="300" x2="1000" y2="300"/>
+    <line x1="200" y1="0" x2="200" y2="360"/>
+    <line x1="400" y1="0" x2="400" y2="360"/>
+    <line x1="600" y1="0" x2="600" y2="360"/>
+    <line x1="800" y1="0" x2="800" y2="360"/>
+  </g>
+
+  <!-- Ambient Light Orbs -->
+  <circle cx="900" cy="80" r="120" fill="#a855f7" opacity="0.08" filter="url(#neon-glow)">
+    <animate attributeName="opacity" values="0.05;0.12;0.05" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="100" cy="280" r="100" fill="#00F2FE" opacity="0.06" filter="url(#neon-glow)">
+    <animate attributeName="opacity" values="0.04;0.1;0.04" dur="8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- 3D Orbiting Motion Graphic Ring (Right Side) -->
+  <g transform="translate(850, 180)">
+    <ellipse cx="0" cy="0" rx="75" ry="30" fill="none" stroke="#00F2FE" stroke-width="1.2" opacity="0.3" stroke-dasharray="6 8">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="0" cy="0" rx="65" ry="40" fill="none" stroke="#ec4899" stroke-width="1" opacity="0.25" stroke-dasharray="4 6">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="14s" repeatCount="indefinite"/>
+    </ellipse>
+    <!-- Central Glowing 3D Sphere -->
+    <circle cx="0" cy="0" r="32" fill="url(#cyan-glow)" opacity="0.8" filter="url(#soft-glow)">
+      <animate attributeName="r" values="30;34;30" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="0" y="8" fill="#030014" font-family="'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="900" text-anchor="middle">⚡</text>
+  </g>
+
+  <!-- Header Row: Live Availability Status -->
+  <g transform="translate(45, 52)">
+    <!-- Pulsing Green Dot -->
+    <circle cx="8" cy="8" r="6" fill="#10b981">
+      <animate attributeName="r" values="5;7;5" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="8" cy="8" r="12" fill="none" stroke="#38ef7d" stroke-width="1" opacity="0.5">
+      <animate attributeName="r" values="8;16;8" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0;0.6" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="28" y="13" fill="#38ef7d" font-family="'Fira Code', monospace" font-size="12" font-weight="700" letter-spacing="1.5">LIVE // OPEN FOR CONTRACTS &amp; STARTUP MVPS ($15–$25/HR)</text>
+  </g>
+
+  <!-- Developer Identity -->
+  <text x="45" y="105" fill="#ffffff" font-family="'Segoe UI', Roboto, system-ui, sans-serif" font-size="32" font-weight="800" letter-spacing="0.5">
+    Tarun <tspan fill="url(#cyan-glow)">(@OPSHARP)</tspan>
+  </text>
+  <text x="45" y="135" fill="#94a3b8" font-family="'Segoe UI', Roboto, system-ui, sans-serif" font-size="16" font-weight="500" letter-spacing="0.8">
+    25 y/o Full-Stack &amp; Mobile Engineer • 27+ Apps Published on Google Play
+  </text>
+
+  <!-- Mission Statement -->
+  <g transform="translate(45, 155)">
+    <rect x="0" y="0" width="700" height="34" rx="8" fill="#161b2e" opacity="0.7" stroke="#1f293d" stroke-width="1"/>
+    <text x="14" y="22" fill="#e2e8f0" font-family="'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500">
+      🎯 <tspan font-weight="700" fill="#00F2FE">Philosophy:</tspan> Clean Architecture • Zero UI Slop • 60/120 FPS Native Motion • Ship Fast
+    </text>
+  </g>
+
+  <!-- Stack Categories (Motion Graphics Pills) -->
+  <!-- Category 1: Mobile -->
+  <g transform="translate(45, 212)">
+    <text x="0" y="18" fill="#00F2FE" font-family="'Fira Code', monospace" font-size="12" font-weight="700">📱 MOBILE</text>
+    <rect x="90" y="0" width="80" height="26" rx="6" fill="#00F2FE" opacity="0.12" stroke="#00F2FE" stroke-width="0.8"/>
+    <text x="130" y="17" fill="#00F2FE" font-family="'Fira Code', monospace" font-size="11.5" text-anchor="middle" font-weight="600">Flutter</text>
+
+    <rect x="178" y="0" width="65" height="26" rx="6" fill="#00F2FE" opacity="0.12" stroke="#00F2FE" stroke-width="0.8"/>
+    <text x="210" y="17" fill="#00F2FE" font-family="'Fira Code', monospace" font-size="11.5" text-anchor="middle" font-weight="600">Dart</text>
+
+    <rect x="251" y="0" width="75" height="26" rx="6" fill="#00F2FE" opacity="0.12" stroke="#00F2FE" stroke-width="0.8"/>
+    <text x="288" y="17" fill="#00F2FE" font-family="'Fira Code', monospace" font-size="11.5" text-anchor="middle" font-weight="600">Kotlin</text>
+
+    <rect x="334" y="0" width="95" height="26" rx="6" fill="#00F2FE" opacity="0.12" stroke="#00F2FE" stroke-width="0.8"/>
+    <text x="381" y="17" fill="#00F2FE" font-family="'Fira Code', monospace" font-size="11.5" text-anchor="middle" font-weight="600">Android SDK</text>
+
+    <rect x="437" y="0" width="115" height="26" rx="6" fill="#00F2FE" opacity="0.12" stroke="#00F2FE" stroke-width="0.8"/>
+    <text x="494" y="17" fill="#00F2FE" font-family="'Fira Code', monospace" font-size="11.5" text-anchor="middle" font-weight="600">On-Device AI</text>
+  </g>
+
+  <!-- Category 2: Full-Stack & Cloud -->
+  <g transform="translate(45, 252)">
+    <text x="0" y="18" fill="#a855f7" font-family="'Fira Code', monospace" font-size="12" font-weight="700">🌐 WEB/API</text>
+    <rect x="90" y="0" width="70" height="26" rx="6" fill="#a855f7" opacity="0.12" stroke="#a855f7" stroke-width="0.8"/>
+    <text x="125" y="17" fill="#c084fc" font-family="'Fira Code', monospace" font-size="11.5" text-anchor="middle" font-weight="600">React</text>
+
+    <rect x="168" y="0" width="80" height="26" rx="6" fill="#a855f7" opacity="0.12" stroke="#a855f7" stroke-width="0.8"/>
+    <text x="208" y="17" fill="#c084fc" font-family="'Fira Code', monospace" font-size="11.5" text-anchor="middle" font-weight="600">Node.js</text>
+
+    <rect x="256" y="0" width="75" height="26" rx="6" fill="#a855f7" opacity="0.12" stroke="#a855f7" stroke-width="0.8"/>
+    <text x="293" y="17" fill="#c084fc" font-family="'Fira Code', monospace" font-size="11.5" text-anchor="middle" font-weight="600">FastAPI</text>
+
+    <rect x="339" y="0" width="75" height="26" rx="6" fill="#a855f7" opacity="0.12" stroke="#a855f7" stroke-width="0.8"/>
+    <text x="376" y="17" fill="#c084fc" font-family="'Fira Code', monospace" font-size="11.5" text-anchor="middle" font-weight="600">Python</text>
+
+    <rect x="422" y="0" width="90" height="26" rx="6" fill="#a855f7" opacity="0.12" stroke="#a855f7" stroke-width="0.8"/>
+    <text x="467" y="17" fill="#c084fc" font-family="'Fira Code', monospace" font-size="11.5" text-anchor="middle" font-weight="600">Supabase</text>
+
+    <rect x="520" y="0" width="85" height="26" rx="6" fill="#a855f7" opacity="0.12" stroke="#a855f7" stroke-width="0.8"/>
+    <text x="562" y="17" fill="#c084fc" font-family="'Fira Code', monospace" font-size="11.5" text-anchor="middle" font-weight="600">Docker</text>
+  </g>
+
+  <!-- Category 3: Specializations -->
+  <g transform="translate(45, 292)">
+    <text x="0" y="18" fill="#ec4899" font-family="'Fira Code', monospace" font-size="12" font-weight="700">⚡ CRAFT</text>
+    <rect x="90" y="0" width="135" height="26" rx="6" fill="#ec4899" opacity="0.12" stroke="#ec4899" stroke-width="0.8"/>
+    <text x="157" y="17" fill="#f472b6" font-family="'Fira Code', monospace" font-size="11.5" text-anchor="middle" font-weight="600">Zero-Fee UPI PG</text>
+
+    <rect x="233" y="0" width="125" height="26" rx="6" fill="#ec4899" opacity="0.12" stroke="#ec4899" stroke-width="0.8"/>
+    <text x="295" y="17" fill="#f472b6" font-family="'Fira Code', monospace" font-size="11.5" text-anchor="middle" font-weight="600">Virtual Try-On AI</text>
+
+    <rect x="366" y="0" width="135" height="26" rx="6" fill="#ec4899" opacity="0.12" stroke="#ec4899" stroke-width="0.8"/>
+    <text x="433" y="17" fill="#f472b6" font-family="'Fira Code', monospace" font-size="11.5" text-anchor="middle" font-weight="600">Privacy OCR/ML</text>
+
+    <rect x="509" y="0" width="135" height="26" rx="6" fill="#ec4899" opacity="0.12" stroke="#ec4899" stroke-width="0.8"/>
+    <text x="576" y="17" fill="#f472b6" font-family="'Fira Code', monospace" font-size="11.5" text-anchor="middle" font-weight="600">DirectShow Cam</text>
+  </g>
+
+  <!-- Bottom Sheen Line -->
+  <rect x="45" y="336" width="910" height="1.5" fill="url(#cyan-glow)" opacity="0.4"/>
+</svg>
