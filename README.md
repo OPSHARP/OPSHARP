@@ -223,12 +223,19 @@
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════════
-     ✦ DEVELOPER ANALYTICS & ACTIVITY ✦
+     ✦ 3D ANIMATED DEVELOPER TELEMETRY & COCKPIT ✦
      ═══════════════════════════════════════════════════════════════════ -->
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="28" valign="middle"/> &nbsp;Developer Telemetry
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="28" valign="middle"/> &nbsp;Developer Telemetry // 3D Animated HUD
 
 <div align="center">
+
+  <!-- 3D Animated Cockpit Dashboard -->
+  <a href="https://github.com/OPSHARP">
+    <img src="https://raw.githubusercontent.com/OPSHARP/OPSHARP/main/assets/telemetry-3d.svg" width="100%" alt="OPSHARP 3D Developer Telemetry Cockpit" />
+  </a>
+
+  <br/><br/>
 
   <!-- Streak Stats (100% Rock Solid DemoLab Engine) -->
   <img src="https://streak-stats.demolab.com/?user=OPSHARP&hide_border=true&background=0a0a14&ring=00f2fe&fire=ff7b00&currStreakLabel=00f2fe&sideLabels=ffffff&sideNums=38ef7d&currStreakNum=00f2fe" width="85%" alt="Streak Stats" />

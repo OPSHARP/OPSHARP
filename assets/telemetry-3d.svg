@@ -1,0 +1,275 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 380" width="100%" height="auto">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="hud-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050510"/>
+      <stop offset="50%" stop-color="#0a0c1e"/>
+      <stop offset="100%" stop-color="#040612"/>
+    </linearGradient>
+
+    <!-- Glowing Neons -->
+    <linearGradient id="cyan-electric" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE"/>
+      <stop offset="100%" stop-color="#4FACFE"/>
+    </linearGradient>
+
+    <linearGradient id="green-telemetry" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00C853"/>
+      <stop offset="100%" stop-color="#38ef7d"/>
+    </linearGradient>
+
+    <linearGradient id="purple-scanner" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+
+    <linearGradient id="amber-alert" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff7b00"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+
+    <!-- Sheen Border Gradient -->
+    <linearGradient id="hud-sheen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.9"/>
+      <stop offset="35%" stop-color="#a855f7" stop-opacity="0.3"/>
+      <stop offset="70%" stop-color="#38ef7d" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#00F2FE" stop-opacity="0.9"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" from="0 0.5 0.5" to="360 0.5 0.5" dur="12s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- Radar Sweep Gradient -->
+    <linearGradient id="radar-sweep" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#00F2FE" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="hud-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Outer Animated Sheen Frame -->
+  <rect x="2" y="2" width="996" height="376" rx="20" fill="none" stroke="url(#hud-sheen)" stroke-width="2.5"/>
+
+  <!-- Cockpit Background Canvas -->
+  <rect x="5" y="5" width="990" height="370" rx="18" fill="url(#hud-bg)"/>
+
+  <!-- 3D Perspective Grid Background -->
+  <g opacity="0.05" stroke="#00F2FE" stroke-width="0.5">
+    <line x1="0" y1="60" x2="1000" y2="60"/><line x1="0" y1="120" x2="1000" y2="120"/>
+    <line x1="0" y1="180" x2="1000" y2="180"/><line x1="0" y1="240" x2="1000" y2="240"/>
+    <line x1="0" y1="300" x2="1000" y2="300"/>
+    <line x1="160" y1="0" x2="160" y2="380"/><line x1="330" y1="0" x2="330" y2="380"/>
+    <line x1="500" y1="0" x2="500" y2="380"/><line x1="670" y1="0" x2="670" y2="380"/>
+    <line x1="840" y1="0" x2="840" y2="380"/>
+  </g>
+
+  <!-- Top Cockpit Status Bar -->
+  <g transform="translate(35, 38)">
+    <!-- Blinking Live Radar Beacon -->
+    <circle cx="8" cy="8" r="6" fill="#38ef7d">
+      <animate attributeName="r" values="5;7;5" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="8" cy="8" r="14" fill="none" stroke="#38ef7d" stroke-width="1" opacity="0.5">
+      <animate attributeName="r" values="8;18;8" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;0;0.7" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="32" y="13" fill="#38ef7d" font-family="'Fira Code', monospace" font-size="12" font-weight="700" letter-spacing="1.5">
+      LIVE TELEMETRY // 3D COCKPIT // SYS.STATUS: NOMINAL (60-120 FPS)
+    </text>
+    
+    <text x="930" y="13" fill="#94a3b8" font-family="'Fira Code', monospace" font-size="11" font-weight="600" text-anchor="end">
+      OPSHARP_OS v4.2 ✦
+    </text>
+  </g>
+
+  <!-- Horizontal Divider Line -->
+  <line x1="35" y1="58" x2="965" y2="58" stroke="#1f293d" stroke-width="1.2"/>
+
+  <!-- ══════════════════════════════════════════════════════════════════
+       MODULE 1: LEFT DIAL — FRAME RATE & VELOCITY TACHOMETER
+       ══════════════════════════════════════════════════════════════════ -->
+  <g transform="translate(180, 165)">
+    <!-- Outer Decorative Ring -->
+    <circle cx="0" cy="0" r="72" fill="none" stroke="#161b2e" stroke-width="8"/>
+    
+    <!-- Animated Tachometer Progress Ring -->
+    <circle cx="0" cy="0" r="72" fill="none" stroke="url(#cyan-electric)" stroke-width="8" stroke-dasharray="452" stroke-dashoffset="113" stroke-linecap="round" filter="url(#hud-glow)">
+      <animate attributeName="stroke-dashoffset" values="180;100;120;90;113" dur="6s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Outer Ticks Ring -->
+    <circle cx="0" cy="0" r="82" fill="none" stroke="#00F2FE" stroke-width="1" stroke-dasharray="2 8" opacity="0.4"/>
+
+    <!-- Tachometer Center Data -->
+    <text x="0" y="-8" fill="#ffffff" font-family="'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="900" text-anchor="middle">
+      120
+    </text>
+    <text x="0" y="12" fill="#00F2FE" font-family="'Fira Code', monospace" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="1">
+      FPS TARGET
+    </text>
+    <text x="0" y="28" fill="#94a3b8" font-family="'Fira Code', monospace" font-size="9" text-anchor="middle">
+      0.0ms JANK RATE
+    </text>
+
+    <!-- Subtitle Card -->
+    <rect x="-75" y="88" width="150" height="26" rx="6" fill="#12182b" stroke="#1f293d" stroke-width="1"/>
+    <text x="0" y="105" fill="#e2e8f0" font-family="'Fira Code', monospace" font-size="10.5" font-weight="600" text-anchor="middle">
+      ⚡ 27+ APPS SHIPPED
+    </text>
+  </g>
+
+  <!-- ══════════════════════════════════════════════════════════════════
+       MODULE 2: CENTER — 3D ORBITING RADAR & AUDIO WAVEFORM VISUALIZER
+       ══════════════════════════════════════════════════════════════════ -->
+  <g transform="translate(500, 165)">
+    <!-- Radar Base Circles -->
+    <circle cx="0" cy="0" r="72" fill="#0a1024" stroke="#162038" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="50" fill="none" stroke="#00F2FE" stroke-width="0.8" opacity="0.3"/>
+    <circle cx="0" cy="0" r="28" fill="none" stroke="#a855f7" stroke-width="0.8" opacity="0.4"/>
+    <circle cx="0" cy="0" r="4" fill="#38ef7d"/>
+
+    <!-- Crosshair Lines -->
+    <line x1="-72" y1="0" x2="72" y2="0" stroke="#00F2FE" stroke-width="0.6" opacity="0.25"/>
+    <line x1="0" y1="-72" x2="0" y2="72" stroke="#00F2FE" stroke-width="0.6" opacity="0.25"/>
+
+    <!-- Rotating Radar Scanner Beam -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4s" repeatCount="indefinite"/>
+      <polygon points="0,0 72,-15 72,15" fill="url(#radar-sweep)"/>
+      <line x1="0" y1="0" x2="72" y2="0" stroke="#00F2FE" stroke-width="1.5" filter="url(#hud-glow)"/>
+    </g>
+
+    <!-- 3D Orbiting Satellite Ring -->
+    <ellipse cx="0" cy="0" rx="84" ry="32" fill="none" stroke="#ec4899" stroke-width="1" opacity="0.35" stroke-dasharray="4 6">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="15s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- Audio / Commits Equalizer Visualizer (Center bottom) -->
+    <g transform="translate(-52, 92)">
+      <!-- 9 Dynamic Equalizer Bars -->
+      <rect x="0" y="0" width="6" height="18" rx="2" fill="#00F2FE">
+        <animate attributeName="height" values="8;22;12;24;8" dur="1.2s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="16;2;12;0;16" dur="1.2s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="12" y="0" width="6" height="20" rx="2" fill="#38ef7d">
+        <animate attributeName="height" values="14;26;8;22;14" dur="1.1s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="10;-2;16;2;10" dur="1.1s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="24" y="0" width="6" height="15" rx="2" fill="#a855f7">
+        <animate attributeName="height" values="22;10;26;14;22" dur="1.3s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="2;14;-2;10;2" dur="1.3s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="36" y="0" width="6" height="24" rx="2" fill="#00F2FE">
+        <animate attributeName="height" values="10;26;14;22;10" dur="0.9s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="14;-2;10;2;14" dur="0.9s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="48" y="0" width="6" height="16" rx="2" fill="#ec4899">
+        <animate attributeName="height" values="26;12;22;8;26" dur="1.4s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="-2;12;2;16;-2" dur="1.4s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="60" y="0" width="6" height="22" rx="2" fill="#38ef7d">
+        <animate attributeName="height" values="12;24;10;26;12" dur="1.1s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="12;0;14;-2;12" dur="1.1s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="72" y="0" width="6" height="14" rx="2" fill="#ff7b00">
+        <animate attributeName="height" values="18;8;24;12;18" dur="1.2s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="6;16;0;12;6" dur="1.2s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="84" y="0" width="6" height="20" rx="2" fill="#00F2FE">
+        <animate attributeName="height" values="8;22;14;26;8" dur="1.0s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="16;2;10;-2;16" dur="1.0s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="96" y="0" width="6" height="16" rx="2" fill="#a855f7">
+        <animate attributeName="height" values="20;10;24;8;20" dur="1.3s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="4;14;0;16;4" dur="1.3s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+
+  <!-- ══════════════════════════════════════════════════════════════════
+       MODULE 3: RIGHT — ENGINE POWER MATRIX & REPO STATS
+       ══════════════════════════════════════════════════════════════════ -->
+  <g transform="translate(690, 85)">
+    <!-- Panel Frame -->
+    <rect x="0" y="0" width="275" height="185" rx="10" fill="#0d1222" stroke="#1a2542" stroke-width="1.2"/>
+    
+    <text x="16" y="24" fill="#a855f7" font-family="'Fira Code', monospace" font-size="11" font-weight="700" letter-spacing="1">
+      ⚡ TECH VELOCITY MATRIX
+    </text>
+
+    <!-- Bar 1: Flutter / Dart -->
+    <g transform="translate(16, 44)">
+      <text x="0" y="10" fill="#e2e8f0" font-family="'Fira Code', monospace" font-size="11" font-weight="600">Flutter / Dart</text>
+      <text x="242" y="10" fill="#00F2FE" font-family="'Fira Code', monospace" font-size="11" font-weight="700" text-anchor="end">98%</text>
+      <rect x="0" y="16" width="242" height="6" rx="3" fill="#161b2e"/>
+      <rect x="0" y="16" width="237" height="6" rx="3" fill="url(#cyan-electric)"/>
+    </g>
+
+    <!-- Bar 2: Native Android / Kotlin -->
+    <g transform="translate(16, 76)">
+      <text x="0" y="10" fill="#e2e8f0" font-family="'Fira Code', monospace" font-size="11" font-weight="600">Android / Kotlin</text>
+      <text x="242" y="10" fill="#38ef7d" font-family="'Fira Code', monospace" font-size="11" font-weight="700" text-anchor="end">94%</text>
+      <rect x="0" y="16" width="242" height="6" rx="3" fill="#161b2e"/>
+      <rect x="0" y="16" width="227" height="6" rx="3" fill="url(#green-telemetry)"/>
+    </g>
+
+    <!-- Bar 3: Full-Stack (React/Node/FastAPI) -->
+    <g transform="translate(16, 108)">
+      <text x="0" y="10" fill="#e2e8f0" font-family="'Fira Code', monospace" font-size="11" font-weight="600">React • Node • Py</text>
+      <text x="242" y="10" fill="#a855f7" font-family="'Fira Code', monospace" font-size="11" font-weight="700" text-anchor="end">92%</text>
+      <rect x="0" y="16" width="242" height="6" rx="3" fill="#161b2e"/>
+      <rect x="0" y="16" width="222" height="6" rx="3" fill="url(#purple-scanner)"/>
+    </g>
+
+    <!-- Bar 4: On-Device AI / ML Kit -->
+    <g transform="translate(16, 140)">
+      <text x="0" y="10" fill="#e2e8f0" font-family="'Fira Code', monospace" font-size="11" font-weight="600">On-Device AI / ML</text>
+      <text x="242" y="10" fill="#ff7b00" font-family="'Fira Code', monospace" font-size="11" font-weight="700" text-anchor="end">90%</text>
+      <rect x="0" y="16" width="242" height="6" rx="3" fill="#161b2e"/>
+      <rect x="0" y="16" width="218" height="6" rx="3" fill="url(#amber-alert)"/>
+    </g>
+  </g>
+
+  <!-- ══════════════════════════════════════════════════════════════════
+       BOTTOM BAR: LIVE HEARTBEAT WAVEFORM & SYSTEM METRICS
+       ══════════════════════════════════════════════════════════════════ -->
+  <g transform="translate(35, 305)">
+    <!-- Background Frame -->
+    <rect x="0" y="0" width="930" height="52" rx="10" fill="#0a0f20" stroke="#16223d" stroke-width="1"/>
+
+    <!-- Left Heartbeat EKG Pulse -->
+    <g transform="translate(20, 26)">
+      <path d="M 0 0 L 25 0 L 32 -14 L 38 16 L 44 -18 L 50 14 L 56 -6 L 62 0 L 120 0" fill="none" stroke="#00F2FE" stroke-width="1.8" filter="url(#hud-glow)">
+        <animate attributeName="stroke-dashoffset" values="240;0" dur="2.5s" repeatCount="indefinite"/>
+      </path>
+      <text x="135" y="4" fill="#00F2FE" font-family="'Fira Code', monospace" font-size="10.5" font-weight="700" letter-spacing="1">
+        LIVE DEV PULSE // 100% HEALTH
+      </text>
+    </g>
+
+    <!-- Center Key Badges -->
+    <g transform="translate(430, 16)">
+      <rect x="0" y="0" width="135" height="22" rx="4" fill="#161b2e" stroke="#1f293d" stroke-width="0.8"/>
+      <text x="67" y="15" fill="#38ef7d" font-family="'Fira Code', monospace" font-size="10.5" font-weight="700" text-anchor="middle">
+        ● 21 REPOSITORIES
+      </text>
+
+      <rect x="145" y="0" width="155" height="22" rx="4" fill="#161b2e" stroke="#1f293d" stroke-width="0.8"/>
+      <text x="222" y="15" fill="#a855f7" font-family="'Fira Code', monospace" font-size="10.5" font-weight="700" text-anchor="middle">
+        ✦ ZERO BLOAT ARCH
+      </text>
+
+      <rect x="310" y="0" width="170" height="22" rx="4" fill="#161b2e" stroke="#1f293d" stroke-width="0.8"/>
+      <text x="395" y="15" fill="#00F2FE" font-family="'Fira Code', monospace" font-size="10.5" font-weight="700" text-anchor="middle">
+        ⚡ 60-120 FPS FLUIDITY
+      </text>
+    </g>
+  </g>
+</svg>
