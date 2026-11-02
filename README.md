@@ -7,14 +7,14 @@
 
   <br/>
 
-  <!-- 3D RED TYPING ANIMATION -->
+  <!-- GEN-Z NEON TYPING ANIMATION -->
   <a href="https://github.com/OPSHARP">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2800&pause=1000&color=FF0033&multiline=false&center=true&vCenter=true&repeat=true&width=700&height=45&lines=%F0%9F%91%8B+Hey+there!+I'm+Tarun+(OPSHARP)+%E2%80%94+25+y%2Fo+Freelance+Developer;%F0%9F%9A%80+27%2B+Production+Apps+%26+Games+Published+on+Google+Play;%F0%9F%93%B1+Building+Custom+Mobile+Apps+(Flutter+%26+Android);%F0%9F%8C%90+Developing+Modern+Web+Apps%2C+Websites+%26+Landing+Pages;%F0%9F%A7%A9+Crafting+Turnkey+App+Templates+%26+UI+Design+Systems;%F0%9F%92%BC+Open+for+Freelance+Projects+%26+Worldwide+Client+Work!" alt="3D Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=2600&pause=900&color=00F2FE&multiline=false&center=true&vCenter=true&repeat=true&width=750&height=45&lines=%F0%9F%91%8B+Hey!+I'm+Tarun+(%40OPSHARP)+%E2%80%94+Gen-Z+Mobile+%26+Full-Stack+Engineer;%F0%9F%9A%80+27%2B+Production+Apps+%26+Games+Published+on+Google+Play;%F0%9F%93%B1+Building+Sleek+Mobile+Apps+(Flutter+%E2%80%A2+Android+%E2%80%A2+On-Device+AI);%E2%9A%A1+Shipped+Zero-Fee+Payment+Gateways%2C+AI+Try-On+%26+Offline+Tools;%F0%9F%92%BC+Open+for+High-Impact+Freelance+Projects+%26+Worldwide+Contracts!" alt="Gen-Z Typing SVG" />
   </a>
 
   <br/><br/>
 
-  <!-- 3D FLOATING BADGES & LIVE TELEMETRY RADAR -->
+  <!-- 3D PILL BADGES & LIVE TELEMETRY RADAR -->
   <p align="center">
     <a href="mailto:tarunvip934@gmail.com?subject=Freelance%20Project%20Inquiry%20from%20GitHub">
       <img src="https://img.shields.io/badge/FREELANCE-AVAILABLE_FOR_HIRE-00F2FE?style=for-the-badge&logo=upwork&logoColor=black" alt="Available for Freelance" />
@@ -43,48 +43,67 @@
 
 ---
 
-<!-- 3D INTERACTIVE COMMAND CENTER & HOLOGRAPHIC ASTRONAUT -->
+<!-- 3D INTERACTIVE COMMAND CENTER -->
 <div align="center">
   <table width="100%" border="0" cellspacing="0" cellpadding="0">
     <tr>
       <td bgcolor="#000000" width="62%" valign="top" style="padding: 22px; border: 2px solid #00f2fe; border-radius: 16px;">
         <p align="left" style="margin: 0;">
           <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/MacTerminal.gif" width="16" alt="terminal icon" />
-          <b style="color: #00f2fe; font-family: monospace; font-size: 15px;">&nbsp;OPSHARP_COMMAND_CENTER // V3.0_ONLINE</b>
+          <b style="color: #00f2fe; font-family: monospace; font-size: 15px;">&nbsp;OPSHARP_COMMAND_CENTER // V4.0_GEN_Z_ONLINE</b>
         </p>
         <hr style="border: 0; border-top: 1px solid #1f2937; margin: 12px 0;" />
         <table width="100%" border="0" cellspacing="5" cellpadding="6">
           <tr>
-            <td bgcolor="#0a0a0a" width="30%" style="border-left: 4px solid #00f2fe;"><b style="color: #00f2fe;">👨‍💻 Identity</b></td>
-            <td bgcolor="#0a0a0a" style="color: #ffffff;">Tarun (25 y/o Freelance Full-Stack & Mobile Developer • <b style="color: #38ef7d;">@OPSHARP</b>)</td>
+            <td bgcolor="#0a0a0a" width="30%" style="border-left: 4px solid #00f2fe;">
+              <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="18" valign="middle"/>
+              <b style="color: #00f2fe;">&nbsp;Who Am I</b>
+            </td>
+            <td bgcolor="#0a0a0a" style="color: #ffffff;">Tarun (25 y/o Full-Stack & Mobile Engineer • <b style="color: #38ef7d;">@OPSHARP</b>)</td>
           </tr>
           <tr>
-            <td bgcolor="#0a0a0a" width="30%" style="border-left: 4px solid #00c853;"><b style="color: #00c853;">🚀 Play Store</b></td>
-            <td bgcolor="#0a0a0a" style="color: #ffffff;"><b>27+ Published Android Apps & Games</b> — <a href="https://play.google.com/store/apps/dev?id=4787166422555400493" target="_blank" style="color: #00f2fe; text-decoration: underline;"><b>View Play Store Portfolio ↗</b></a></td>
+            <td bgcolor="#0a0a0a" width="30%" style="border-left: 4px solid #00c853;">
+              <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="18" valign="middle"/>
+              <b style="color: #00c853;">&nbsp;Play Store</b>
+            </td>
+            <td bgcolor="#0a0a0a" style="color: #ffffff;"><b>27+ Published Android Apps & Games</b> — <a href="https://play.google.com/store/apps/dev?id=4787166422555400493" target="_blank" style="color: #00f2fe; text-decoration: underline;"><b>Explore Google Play Portfolio ↗</b></a></td>
           </tr>
           <tr>
-            <td bgcolor="#0a0a0a" width="30%" style="border-left: 4px solid #38ef7d;"><b style="color: #38ef7d;">💼 Freelancing</b></td>
-            <td bgcolor="#0a0a0a" style="color: #ffffff;">Custom Mobile Apps, Web Apps, Websites, Landing Pages & Turnkey App Templates</td>
+            <td bgcolor="#0a0a0a" width="30%" style="border-left: 4px solid #38ef7d;">
+              <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Mobile%20Phone.png" width="18" valign="middle"/>
+              <b style="color: #38ef7d;">&nbsp;Mobile Craft</b>
+            </td>
+            <td bgcolor="#0a0a0a" style="color: #ffffff;">Flutter (Riverpod/BLoC), Native Android (Kotlin), On-Device AI (ML Kit Vision/NLP), 120 FPS Rendering</td>
           </tr>
           <tr>
-            <td bgcolor="#0a0a0a" width="30%" style="border-left: 4px solid #a855f7;"><b style="color: #a855f7;">📱 Core Tech</b></td>
-            <td bgcolor="#0a0a0a" style="color: #ffffff;">Flutter, Android (Kotlin), React, Vite, Node.js, Supabase, AWS, Firebase</td>
+            <td bgcolor="#0a0a0a" width="30%" style="border-left: 4px solid #a855f7;">
+              <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png" width="18" valign="middle"/>
+              <b style="color: #a855f7;">&nbsp;Full-Stack & AI</b>
+            </td>
+            <td bgcolor="#0a0a0a" style="color: #ffffff;">React, Vite, Node.js, Express, Supabase, Firebase, Docker, Generative AI Integration</td>
           </tr>
           <tr>
-            <td bgcolor="#0a0a0a" width="30%" style="border-left: 4px solid #f59e0b;"><b style="color: #f59e0b;">⚡ Availability</b></td>
-            <td bgcolor="#0a0a0a" style="color: #ffffff;"><span style="color: #38ef7d;">●</span> Open for freelance gigs, custom contracts & client projects</td>
+            <td bgcolor="#0a0a0a" width="30%" style="border-left: 4px solid #f59e0b;">
+              <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Money%20Bag.png" width="18" valign="middle"/>
+              <b style="color: #f59e0b;">&nbsp;Availability</b>
+            </td>
+            <td bgcolor="#0a0a0a" style="color: #ffffff;"><span style="color: #22c55e;">● AVAILABLE NOW</span> — Fixed-Scope Milestones & Hourly Contracts ($15–$25/hr)</td>
           </tr>
           <tr>
-            <td bgcolor="#0a0a0a" width="30%" style="border-left: 4px solid #ff007f;"><b style="color: #ff007f;">✉️ Direct Hire</b></td>
-            <td bgcolor="#0a0a0a" style="color: #ffffff;"><a href="mailto:tarunvip934@gmail.com?subject=Freelance%20Project%20Inquiry" style="color: #ff3366; text-decoration: underline;"><b>tarunvip934@gmail.com</b></a> (Fast response guaranteed)</td>
+            <td bgcolor="#0a0a0a" width="30%" style="border-left: 4px solid #ec4899;">
+              <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" width="18" valign="middle"/>
+              <b style="color: #ec4899;">&nbsp;Philosophy</b>
+            </td>
+            <td bgcolor="#0a0a0a" style="color: #ffffff;">Clean Architecture, 0% UI Slop, Zero Bloat, Fast Turnarounds & Production-Grade Code</td>
           </tr>
         </table>
       </td>
-      <td bgcolor="#000000" width="38%" align="center" valign="middle" style="padding: 16px; border: 2px solid #a855f7; border-radius: 16px;">
-        <!-- 3D HOLOGRAPHIC FLOATING ASTRONAUT -->
-        <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" alt="3D Holographic Developer in Space" style="border-radius: 12px;" />
-        <p align="center" style="color: #a855f7; font-family: monospace; font-size: 12px; margin-top: 8px;">
-          ✦ FREELANCE CORE ONLINE ✦
+      <td bgcolor="#000000" width="38%" align="center" valign="middle" style="padding: 14px; border: 2px solid #a855f7; border-left: none; border-radius: 16px;">
+        <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="220" alt="3D Space Hacker" style="border-radius: 14px;" />
+        <br/>
+        <p align="center" style="margin: 8px 0 0 0; font-family: monospace; font-size: 12px; color: #a855f7;">
+          <b>✦ 0 TO 1 PRODUCT BUILDER ✦</b><br/>
+          <span style="color: #00f2fe;">"Code that ships. Designs that convert."</span>
         </p>
       </td>
     </tr>
@@ -93,134 +112,41 @@
 
 ---
 
-<!-- 3D FREELANCE SERVICES & WHAT I BUILD -->
-<div align="center">
-  <table width="100%" border="0" cellspacing="8" cellpadding="12">
-    <tr>
-      <td bgcolor="#000000" width="50%" valign="top" style="border: 2px solid #00f2fe; border-radius: 16px;">
-        <h4 align="center" style="color: #00f2fe; margin-top: 0;">
-          <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Mobile%20Phone%20with%20Arrow.png" width="24" valign="middle"/>
-          &nbsp;CUSTOM MOBILE APPS
-        </h4>
-        <p align="center" style="color: #cccccc; font-size: 13.5px;">
-          High-performance, fluid cross-platform <b>Flutter & Android</b> apps with 60-120 FPS animations, offline SQLite caching, clean state management, and Play Store publishing.
-        </p>
-      </td>
-      <td bgcolor="#000000" width="50%" valign="top" style="border: 2px solid #00c853; border-radius: 16px;">
-        <h4 align="center" style="color: #00c853; margin-top: 0;">
-          <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="24" valign="middle"/>
-          &nbsp;WEB APPS & FULL-STACK
-        </h4>
-        <p align="center" style="color: #cccccc; font-size: 13.5px;">
-          Modern, reactive full-stack web applications and SaaS platforms powered by <b>React, Vite, Node.js, Supabase & AWS</b> with real-time sync, auth, and payment gateways.
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td bgcolor="#000000" width="50%" valign="top" style="border: 2px solid #a855f7; border-radius: 16px;">
-        <h4 align="center" style="color: #a855f7; margin-top: 0;">
-          <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" width="24" valign="middle"/>
-          &nbsp;HIGH-CONVERTING LANDING PAGES
-        </h4>
-        <p align="center" style="color: #cccccc; font-size: 13.5px;">
-          Ultra-sleek, responsive, eye-popping websites and landing pages built to stun visitors and convert traffic with smooth micro-animations and lightning-fast load times.
-        </p>
-      </td>
-      <td bgcolor="#000000" width="50%" valign="top" style="border: 2px solid #ff3366; border-radius: 16px;">
-        <h4 align="center" style="color: #ff3366; margin-top: 0;">
-          <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Video%20Game.png" width="24" valign="middle"/>
-          &nbsp;APP TEMPLATES & STARTER KITS
-        </h4>
-        <p align="center" style="color: #cccccc; font-size: 13.5px;">
-          Modular, clean-architecture turnkey templates, UI kits, and mini-game boilerplates for creators, indie hackers, and startups looking to ship at warp speed.
-        </p>
-      </td>
-    </tr>
-  </table>
-
-  <br/>
-
-  <p align="center">
-    <a href="mailto:tarunvip934@gmail.com?subject=Freelance%20Project%20Inquiry%20from%20GitHub">
-      <img src="https://img.shields.io/badge/START_A_PROJECT_WITH_ME-00F2FE?style=for-the-badge&logo=googlechat&logoColor=black" alt="Start a Project with Tarun" />
-    </a>
-    &nbsp;&nbsp;
-    <a href="https://play.google.com/store/apps/dev?id=4787166422555400493" target="_blank">
-      <img src="https://img.shields.io/badge/EXPLORE_MY_27+_APPS-00C853?style=for-the-badge&logo=googleplay&logoColor=white" alt="Explore 27+ Apps" />
-    </a>
-  </p>
-</div>
-
----
+<!-- 3D TECH ARSENAL & SKILLS -->
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="28" valign="middle"/>&nbsp; 3D Tech Arsenal & Engineering Stack
 
 <div align="center">
-
-  <!-- 3D GLOSSY APP ICONS GRID VIA SKILLICONS -->
-  <p align="center">
-    <a href="https://skillicons.dev">
-      <img src="https://skillicons.dev/icons?i=flutter,dart,androidstudio,kotlin,react,ts,tailwind,nodejs,supabase,aws,firebase,sqlite,postgres,git,github,vscode&perline=8" alt="3D Tech Stack" />
-    </a>
-  </p>
-
-  <br/>
-
-  <table width="100%" border="0" cellspacing="8" cellpadding="10">
+  <table width="100%" border="0" cellspacing="4" cellpadding="0">
     <tr>
-      <td bgcolor="#000000" width="50%" valign="top" style="border: 2px solid #00f2fe; border-radius: 14px;">
-        <h4 align="center" style="color: #00f2fe; margin: 4px 0 10px 0;">
-          <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Mobile%20Phone%20with%20Arrow.png" width="22" valign="middle"/>
-          &nbsp;MOBILE & CROSS-PLATFORM
-        </h4>
-        <p align="center">
-          <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
-          <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
-          <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
-          <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
-          <img src="https://img.shields.io/badge/Riverpod-4527A0?style=for-the-badge&logo=dart&logoColor=white" />
-          <img src="https://img.shields.io/badge/Google_Play-34A853?style=for-the-badge&logo=googleplay&logoColor=white" />
-        </p>
+      <td bgcolor="#0a0a0a" width="50%" valign="top" style="border: 1px solid #00f2fe; border-radius: 12px; padding: 12px;">
+        <b style="color: #00f2fe;">📱 Mobile & Cross-Platform (Flagship)</b>
+        <br/><br/>
+        <a href="https://skillicons.dev">
+          <img src="https://skillicons.dev/icons?i=flutter,dart,android,apple,kotlin,firebase,sqlite&theme=dark" alt="Mobile Tech Stack" />
+        </a>
       </td>
-      <td bgcolor="#000000" width="50%" valign="top" style="border: 2px solid #a855f7; border-radius: 14px;">
-        <h4 align="center" style="color: #a855f7; margin: 4px 0 10px 0;">
-          <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" width="22" valign="middle"/>
-          &nbsp;AI & INTELLIGENT SYSTEMS
-        </h4>
-        <p align="center">
-          <img src="https://img.shields.io/badge/Gemini_AI-4E75F6?style=for-the-badge&logo=google&logoColor=white" />
-          <img src="https://img.shields.io/badge/Claude_AI-D97706?style=for-the-badge&logo=anthropic&logoColor=white" />
-          <img src="https://img.shields.io/badge/Agentic_AI-8B5CF6?style=for-the-badge&logo=probot&logoColor=white" />
-          <img src="https://img.shields.io/badge/LLM_Tooling-10B981?style=for-the-badge&logo=openai&logoColor=white" />
-          <img src="https://img.shields.io/badge/Autonomous_AI-FF007F?style=for-the-badge&logo=probot&logoColor=white" />
-        </p>
+      <td bgcolor="#0a0a0a" width="50%" valign="top" style="border: 1px solid #a855f7; border-radius: 12px; padding: 12px;">
+        <b style="color: #a855f7;">🌐 Web & Modern Frontend</b>
+        <br/><br/>
+        <a href="https://skillicons.dev">
+          <img src="https://skillicons.dev/icons?i=react,vite,nextjs,tailwind,html,css,js,ts&theme=dark" alt="Web Tech Stack" />
+        </a>
       </td>
     </tr>
     <tr>
-      <td bgcolor="#000000" width="50%" valign="top" style="border: 2px solid #38ef7d; border-radius: 14px;">
-        <h4 align="center" style="color: #38ef7d; margin: 4px 0 10px 0;">
-          <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="22" valign="middle"/>
-          &nbsp;WEB & FULL-STACK
-        </h4>
-        <p align="center">
-          <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-          <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-          <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-          <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
-          <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-        </p>
+      <td bgcolor="#0a0a0a" width="50%" valign="top" style="border: 1px solid #22c55e; border-radius: 12px; padding: 12px;">
+        <b style="color: #22c55e;">⚙️ Backend, Cloud & Payments</b>
+        <br/><br/>
+        <a href="https://skillicons.dev">
+          <img src="https://skillicons.dev/icons?i=nodejs,express,python,fastapi,mongodb,postgres,supabase,aws,docker&theme=dark" alt="Backend Tech Stack" />
+        </a>
       </td>
-      <td bgcolor="#000000" width="50%" valign="top" style="border: 2px solid #f59e0b; border-radius: 14px;">
-        <h4 align="center" style="color: #f59e0b; margin: 4px 0 10px 0;">
-          <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" width="22" valign="middle"/>
-          &nbsp;BACKEND, CLOUD & DATABASES
-        </h4>
-        <p align="center">
-          <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
-          <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white" />
-          <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
-          <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
-          <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
-          <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
-        </p>
+      <td bgcolor="#0a0a0a" width="50%" valign="top" style="border: 1px solid #f59e0b; border-radius: 12px; padding: 12px;">
+        <b style="color: #f59e0b;">🎨 Design, AI & Engineering Tools</b>
+        <br/><br/>
+        <a href="https://skillicons.dev">
+          <img src="https://skillicons.dev/icons?i=figma,pytorch,tensorflow,git,github,postman,linux,vscode&theme=dark" alt="Tools Tech Stack" />
+        </a>
       </td>
     </tr>
   </table>
@@ -228,70 +154,117 @@
 
 ---
 
-### 💎 Featured Holographic Showcases
+<!-- 3D FEATURED PROJECTS SHOWCASE -->
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="28" valign="middle"/>&nbsp; Featured 3D Projects & Flagship Products
 
 <div align="center">
-  <table width="100%" border="0" cellspacing="8" cellpadding="12">
+  <table width="100%" border="0" cellspacing="8" cellpadding="14">
     <tr>
-      <td bgcolor="#000000" width="50%" valign="top" style="border: 2px solid #00f2fe; border-radius: 16px;">
-        <h3 align="center" style="color: #00f2fe; margin-top: 0;">
-          <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Video%20Game.png" width="26" valign="middle"/>
-          &nbsp;KRIDO
+      <!-- Project 1: Try On Clothes AI -->
+      <td bgcolor="#000000" width="50%" valign="top" style="border: 2px solid #ec4899; border-radius: 16px;">
+        <h3 align="center" style="color: #ec4899; margin-top: 0;">
+          <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Dress.png" width="28" valign="middle"/>
+          &nbsp;Try On Clothes AI
         </h3>
         <p align="center" style="color: #cccccc; font-size: 14px;">
-          <b>Kids Educational Mini-Game Universe</b><br/>
-          An offline-first Flutter game engine packed with <b>28+ interactive mini-games</b> for kids ages 3–8. Zero latency, 60 FPS graphics, COPPA & Google Play Families policy compliant.
+          <b>👗 AI Virtual Fitting Room Mobile App</b><br/>
+          Proprietary cosine alpha-blending guarantees 100% face identity lock. Multi-provider AI (IDM-VTON, Replicate, Fal.ai) with in-app coin economy.
+        </p>
+        <p align="center">
+          <a href="https://github.com/OPSHARP/try-on-clothes-ai">
+            <img src="https://img.shields.io/badge/VIEW_REPO-EC4899?style=for-the-badge&logo=github&logoColor=white" alt="Try On Clothes AI" />
+          </a>
+        </p>
+      </td>
+      <!-- Project 2: PrivaScan AI -->
+      <td bgcolor="#000000" width="50%" valign="top" style="border: 2px solid #00f2fe; border-radius: 16px;">
+        <h3 align="center" style="color: #00f2fe; margin-top: 0;">
+          <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Page%20Facing%20Up.png" width="28" valign="middle"/>
+          &nbsp;PrivaScan AI
+        </h3>
+        <p align="center" style="color: #cccccc; font-size: 14px;">
+          <b>📄 Privacy-First On-Device Document Scanner & OCR</b><br/>
+          100% on-device ML Kit text extraction, offline neural translation in 50+ languages & local summarizer. Zero cloud uploads.
+        </p>
+        <p align="center">
+          <a href="https://github.com/OPSHARP/privascan_ai">
+            <img src="https://img.shields.io/badge/VIEW_REPO-00F2FE?style=for-the-badge&logo=github&logoColor=black" alt="PrivaScan AI" />
+          </a>
+          &nbsp;
+          <a href="https://play.google.com/store/apps/details?id=com.privascan.ai" target="_blank">
+            <img src="https://img.shields.io/badge/PLAY_STORE-00C853?style=for-the-badge&logo=googleplay&logoColor=white" alt="Play Store" />
+          </a>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <!-- Project 3: KRIDO Kids Games -->
+      <td bgcolor="#000000" width="50%" valign="top" style="border: 2px solid #f59e0b; border-radius: 16px;">
+        <h3 align="center" style="color: #f59e0b; margin-top: 0;">
+          <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Video%20Game.png" width="28" valign="middle"/>
+          &nbsp;KRIDO Kids Games
+        </h3>
+        <p align="center" style="color: #cccccc; font-size: 14px;">
+          <b>🎮 28+ Offline Early Childhood Learning Games</b><br/>
+          COPPA-compliant, ad-safe Flutter app teaching math, phonics, tracing & logic. Built with Riverpod & zero latency audio engine.
         </p>
         <p align="center">
           <a href="https://github.com/OPSHARP/KRIDO">
-            <img src="https://img.shields.io/badge/EXPLORE_PROJECT-00F2FE?style=for-the-badge&logo=github&logoColor=black" alt="KRIDO" />
+            <img src="https://img.shields.io/badge/VIEW_REPO-F59E0B?style=for-the-badge&logo=github&logoColor=black" alt="KRIDO" />
+          </a>
+          &nbsp;
+          <a href="https://play.google.com/store/apps/details?id=com.krido.kidsapp" target="_blank">
+            <img src="https://img.shields.io/badge/PLAY_STORE-00C853?style=for-the-badge&logo=googleplay&logoColor=white" alt="Play Store" />
           </a>
         </p>
       </td>
-      <td bgcolor="#000000" width="50%" valign="top" style="border: 2px solid #00c853; border-radius: 16px;">
-        <h3 align="center" style="color: #00c853; margin-top: 0;">
-          <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Fire.png" width="26" valign="middle"/>
-          &nbsp;YouPI-PG
+      <!-- Project 4: YouPI Payment Gateway -->
+      <td bgcolor="#000000" width="50%" valign="top" style="border: 2px solid #22c55e; border-radius: 16px;">
+        <h3 align="center" style="color: #22c55e; margin-top: 0;">
+          <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Credit%20Card.png" width="28" valign="middle"/>
+          &nbsp;YouPI Payment Gateway
         </h3>
         <p align="center" style="color: #cccccc; font-size: 14px;">
-          <b>Zero-Fee Self-Hosted UPI Gateway</b><br/>
-          Universal payment engine with dynamic QR generation, WhatsApp OTP verification, automated webhook notifications, and zero platform cuts.
+          <b>💳 Zero-Fee Self-Hosted UPI & COD Engine</b><br/>
+          Universal drop-in JavaScript checkout, instant dynamic QR payments, WhatsApp OTP verification & webhook automation.
         </p>
         <p align="center">
           <a href="https://github.com/OPSHARP/YouPI-PG">
-            <img src="https://img.shields.io/badge/EXPLORE_PROJECT-00C853?style=for-the-badge&logo=github&logoColor=white" alt="YouPI-PG" />
+            <img src="https://img.shields.io/badge/VIEW_REPO-22C55E?style=for-the-badge&logo=github&logoColor=black" alt="YouPI-PG" />
           </a>
         </p>
       </td>
     </tr>
     <tr>
-      <td bgcolor="#000000" width="50%" valign="top" style="border: 2px solid #a855f7; border-radius: 16px;">
-        <h3 align="center" style="color: #a855f7; margin-top: 0;">
-          <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" width="26" valign="middle"/>
-          &nbsp;Strix & Security Tools
+      <!-- Project 5: OmniRoute AI Gateway -->
+      <td bgcolor="#000000" width="50%" valign="top" style="border: 2px solid #00f2fe; border-radius: 16px;">
+        <h3 align="center" style="color: #00f2fe; margin-top: 0;">
+          <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png" width="28" valign="middle"/>
+          &nbsp;OmniRoute AI Gateway
         </h3>
         <p align="center" style="color: #cccccc; font-size: 14px;">
-          <b>Autonomous AI Pentesting & Security Hardening</b><br/>
-          Automated multi-vector vulnerability analyzer testing mobile & web infrastructure before threat actors strike.
+          <b>⚡ Unified Multi-Provider AI Gateway</b><br/>
+          One endpoint connecting 375 providers & 1,400+ models. Token compression algorithms saving 15–95% on API costs with auto-fallback.
         </p>
         <p align="center">
-          <a href="https://github.com/OPSHARP/strix">
-            <img src="https://img.shields.io/badge/EXPLORE_TOOL-A855F7?style=for-the-badge&logo=github&logoColor=white" alt="Strix" />
+          <a href="https://github.com/OPSHARP/OmniRoute">
+            <img src="https://img.shields.io/badge/VIEW_REPO-00F2FE?style=for-the-badge&logo=github&logoColor=black" alt="OmniRoute" />
           </a>
         </p>
       </td>
-      <td bgcolor="#000000" width="50%" valign="top" style="border: 2px solid #ff3366; border-radius: 16px;">
-        <h3 align="center" style="color: #ff3366; margin-top: 0;">
-          <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Trophy.png" width="26" valign="middle"/>
-          &nbsp;ArrowPuzzle
+      <!-- Project 6: Arrow Escape -->
+      <td bgcolor="#000000" width="50%" valign="top" style="border: 2px solid #a855f7; border-radius: 16px;">
+        <h3 align="center" style="color: #a855f7; margin-top: 0;">
+          <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Bullseye.png" width="28" valign="middle"/>
+          &nbsp;Arrow Escape
         </h3>
         <p align="center" style="color: #cccccc; font-size: 14px;">
-          <b>Minimalist Spatial Logic Game</b><br/>
-          Pure tactile brain-teaser crafted with physics-based feedback loops, smooth render pipelines, and zero distractions.
+          <b>🎯 Minimalist Directional Logic Game</b><br/>
+          Infinite procedurally generated spatial puzzles, tactile haptics, smooth 60 FPS rendering, zero ads and 100% offline play.
         </p>
         <p align="center">
           <a href="https://github.com/OPSHARP/ArrowPuzzle">
-            <img src="https://img.shields.io/badge/EXPLORE_GAME-FF3366?style=for-the-badge&logo=github&logoColor=white" alt="ArrowPuzzle" />
+            <img src="https://img.shields.io/badge/VIEW_REPO-A855F7?style=for-the-badge&logo=github&logoColor=white" alt="ArrowPuzzle" />
           </a>
         </p>
       </td>
@@ -300,6 +273,9 @@
 </div>
 
 ---
+
+<!-- LIVE TELEMETRY & STATS -->
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Package.png" width="28" valign="middle"/>&nbsp; Live Developer Analytics & Telemetry
 
 <div align="center">
   <table width="100%" border="0" cellspacing="6" cellpadding="0">
@@ -326,9 +302,7 @@
   </table>
 </div>
 
----
-
-### 📈 Live GitHub Contribution Matrix
+<br/>
 
 <div align="center">
   <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -344,10 +318,17 @@
 
 ---
 
-### 🌐 Let's Connect & Build Together
+<!-- GEN-Z CONNECT & FOOTER -->
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="28" valign="middle"/>&nbsp; Let's Connect & Build Something Unreal
 
 <div align="center">
 
+  <p><b>Have a project, startup MVP, or contract? Let's turn your vision into high-performance software.</b></p>
+
+  <a href="mailto:tarunvip934@gmail.com?subject=Project%20Inquiry%20via%20GitHub">
+    <img src="https://img.shields.io/badge/Direct_Email-tarunvip934@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  &nbsp;&nbsp;
   <a href="https://play.google.com/store/apps/dev?id=4787166422555400493" target="_blank">
     <img src="https://img.shields.io/badge/Google_Play-27+_Apps-00C853?style=for-the-badge&logo=googleplay&logoColor=white" alt="Google Play" />
   </a>
@@ -361,18 +342,20 @@
   </a>
   &nbsp;&nbsp;
   <a href="https://github.com/OPSHARP" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-OPSHARP-181717?style=for-the-badge&logo=github&logoColor=00f2fe" alt="GitHub" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="mailto:tarunvip934@gmail.com">
-    <img src="https://img.shields.io/badge/Email-tarunvip934@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/GitHub-@OPSHARP-181717?style=for-the-badge&logo=github&logoColor=00f2fe" alt="GitHub" />
   </a>
 
-</div>
+  <br/><br/>
 
-<br/>
+  <!-- ULTRA-CLEAN GEN-Z FOOTER STATUS BAR -->
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td bgcolor="#0a0a0a" align="center" style="border: 1px solid #1f2937; border-radius: 12px; padding: 14px;">
+        <span style="color: #94a3b8; font-size: 13px; font-family: monospace;">
+          ⚡ Designed & Engineered with precision by <b style="color: #00f2fe;">@OPSHARP</b> • Built for 60/120 FPS performance & zero bloat
+        </span>
+      </td>
+    </tr>
+  </table>
 
-<div align="center">
-  <!-- VIBRANT MULTICOLOR AURORA WAVING FOOTER -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,20,14,8,2,0&height=140&section=footer" width="100%" alt="3D Aurora Footer"/>
 </div>
