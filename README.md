@@ -13,7 +13,7 @@
 
   <!-- ▸ ANIMATED TYPING TAGLINE ◂ -->
   <a href="https://github.com/OPSHARP">
-    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=21&duration=2800&pause=1000&color=00F2FE&center=true&vCenter=true&repeat=true&width=800&height=48&lines=%E2%9A%A1+Shipped+27%2B+Production+Apps+%26+Games+on+Google+Play;%F0%9F%93%B1+High-Performance+Flutter+%E2%80%A2+Native+Android+%E2%80%A2+On-Device+AI;%F0%9F%92%B3+Zero-Fee+Payment+Gateways+%7C+AI+Virtual+Try-On+%7C+Desktop+Mirror;%F0%9F%9A%80+Available+for+High-Impact+Contracts+%26+Startup+MVPs" alt="Typing Animation" />
+    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=21&duration=2800&pause=1000&color=00F2FE&center=true&vCenter=true&repeat=true&width=800&height=48&lines=%E2%9A%A1+Shipped+27%2B+Production+Apps+%26+Games+on+Google+Play;%F0%9F%93%B1+High-Performance+Flutter+%E2%80%A2+Native+Android+%E2%80%A2+On-Device+AI;%F0%9F%8F%9B%EF%B8%8F+Govt.+of+India+Registered+MSME+Enterprise+(SHARP+OP);%F0%9F%9A%80+Available+for+High-Impact+Contracts+%26+Startup+MVPs" alt="Typing Animation" />
   </a>
 
   <br/>
@@ -22,6 +22,10 @@
   <p>
     <a href="mailto:tarunvip934@gmail.com?subject=Contract%20Inquiry%20via%20GitHub">
       <img src="https://img.shields.io/badge/🟢_AVAILABLE_FOR_HIRE-$15--$25%2Fhr-00F2FE?style=for-the-badge&labelColor=0a0a14" alt="Available for Hire" />
+    </a>
+    &nbsp;
+    <a href="#-government-registered-enterprise--trust--compliance">
+      <img src="https://img.shields.io/badge/Govt._of_India-MSME_REGISTERED-FF9933?style=for-the-badge&logo=shield&labelColor=0a0a14" alt="Govt Registered MSME" />
     </a>
     &nbsp;
     <a href="https://play.google.com/store/apps/dev?id=4787166422555400493" target="_blank">
@@ -67,6 +71,36 @@
 - 💳 **Fintech & Web Engines**: Shipped zero-fee UPI payment gateways with drop-in JS checkout, dynamic QR code generators, and instant WhatsApp webhook automations.
 - 💼 **Open for Work**: Available for high-impact contracts, startup MVPs, and long-term freelance collaborations (`$15–$25/hr` or milestone-based).
 - 🎯 **Engineering Creed**: *Clean architecture • Zero UI slop • 60/120 FPS performance • Ship fast.*
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════
+     ✦ GOVERNMENT REGISTERED ENTERPRISE // TRUST & COMPLIANCE ✦
+     ═══════════════════════════════════════════════════════════════════ -->
+
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Identification%20Card.png" width="28" valign="middle"/> &nbsp;Government Registered Enterprise // Trust & Compliance
+
+<div align="center">
+  <a href="https://udyamregistration.gov.in" target="_blank">
+    <img src="https://raw.githubusercontent.com/OPSHARP/OPSHARP/main/assets/msme-badge.svg" width="100%" alt="Govt of India MSME Udyam Registration Certificate - SHARP OP" />
+  </a>
+</div>
+
+<br/>
+
+<div align="center">
+
+| Accreditation Parameter | Government of India Verified Details |
+| :--- | :--- |
+| **Enterprise Name** | **SHARP OP** |
+| **Udyam Registration No.** | **`UDYAM-UP-18-0090815`** |
+| **Ministry / Issuing Body** | **Ministry of Micro, Small and Medium Enterprises (M/o MSME)** |
+| **Classification Category** | **Micro Enterprise (Services)** |
+| **Primary Industry (NIC)** | **NIC 62011** — *Writing, modifying, testing of computer programs & custom software solutions* |
+| **Business Scope** | Mobile App Development, Enterprise Web Platforms, On-Device AI & IT Consulting |
+| **Official Portal Verification** | [Verify at udyamregistration.gov.in ↗](https://udyamregistration.gov.in) |
+
+</div>
 
 ---
 
