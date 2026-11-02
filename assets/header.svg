@@ -1,253 +1,218 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340">
   <defs>
-    <!-- Background Gradient -->
-    <radialGradient id="cyber-bg" cx="50%" cy="40%" r="70%">
-      <stop offset="0%" stop-color="#0a1128" stop-opacity="0.9"/>
-      <stop offset="45%" stop-color="#050814" stop-opacity="0.95"/>
-      <stop offset="100%" stop-color="#000000" stop-opacity="1"/>
-    </radialGradient>
-
-    <!-- Neon Glow Filters -->
-    <filter id="neon-glow-cyan" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="8" result="blur1"/>
-      <feGaussianBlur stdDeviation="20" result="blur2"/>
-      <feMerge>
-        <feMergeNode in="blur2"/>
-        <feMergeNode in="blur1"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <filter id="neon-glow-purple" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="12" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <filter id="card-shadow" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#00f2fe" flood-opacity="0.25"/>
-    </filter>
-
-    <!-- Text 3D Face Gradients -->
-    <linearGradient id="text-face" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="30%" stop-color="#e0f7fa"/>
-      <stop offset="65%" stop-color="#00f2fe"/>
-      <stop offset="100%" stop-color="#0080ff"/>
+    <!-- Gradients -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030014"/>
+      <stop offset="50%" stop-color="#0a0a1a"/>
+      <stop offset="100%" stop-color="#050020"/>
     </linearGradient>
-
-    <linearGradient id="text-stroke" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="50%" stop-color="#00f2fe"/>
-      <stop offset="100%" stop-color="#a855f7"/>
+    <linearGradient id="cyan-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE"/>
+      <stop offset="100%" stop-color="#4FACFE"/>
     </linearGradient>
-
-    <linearGradient id="neon-accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00f2fe"/>
-      <stop offset="50%" stop-color="#38ef7d"/>
-      <stop offset="100%" stop-color="#a855f7"/>
+    <linearGradient id="purple-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#ec4899"/>
     </linearGradient>
-
-    <linearGradient id="gold-pill" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#f59e0b"/>
-      <stop offset="100%" stop-color="#d97706"/>
+    <linearGradient id="glow-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#a855f7" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.3"/>
     </linearGradient>
-
-    <linearGradient id="laser-beam" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#00f2fe" stop-opacity="1"/>
+    <linearGradient id="orb1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#00F2FE" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="orb2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.5"/>
       <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
     </linearGradient>
-
-    <!-- 3D Perspective Grid Mask -->
-    <linearGradient id="grid-fade" x1="0%" y1="100%" x2="0%" y2="0%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.45"/>
-      <stop offset="70%" stop-color="#ffffff" stop-opacity="0.08"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    <linearGradient id="orb3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0"/>
     </linearGradient>
-    <mask id="grid-mask">
-      <rect x="0" y="160" width="1200" height="220" fill="url(#grid-fade)"/>
-    </mask>
+    <linearGradient id="line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#a855f7" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0"/>
+    </linearGradient>
 
-    <style>
-      @keyframes laserMove {
-        0% { transform: translateX(-1200px); }
-        100% { transform: translateX(1200px); }
-      }
-      @keyframes pulseBeacon {
-        0%, 100% { r: 5px; opacity: 1; }
-        50% { r: 12px; opacity: 0.3; }
-      }
-      @keyframes floatTitle {
-        0%, 100% { transform: translateY(0px); }
-        50% { transform: translateY(-3px); }
-      }
-      @keyframes glowGlow {
-        0%, 100% { opacity: 0.85; filter: drop-shadow(0 0 16px rgba(0,242,254,0.7)); }
-        50% { opacity: 1; filter: drop-shadow(0 0 28px rgba(0,242,254,0.95)) drop-shadow(0 0 45px rgba(168,85,247,0.5)); }
-      }
-      .laser-anim {
-        animation: laserMove 4s linear infinite;
-      }
-      .title-group {
-        animation: floatTitle 4s ease-in-out infinite;
-      }
-      .glowing-title {
-        animation: glowGlow 3s ease-in-out infinite;
-      }
-      .beacon-ring {
-        animation: pulseBeacon 2s infinite ease-out;
-      }
-    </style>
+    <!-- Filters -->
+    <filter id="glow-cyan" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-lg" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-sm" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glass" x="-5%" y="-5%" width="110%" height="110%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="10"/>
+    </filter>
+
+    <!-- Clip for rounded glassmorphic panel -->
+    <clipPath id="panel-clip">
+      <rect x="280" y="80" width="640" height="180" rx="20"/>
+    </clipPath>
   </defs>
 
-  <!-- PURE BLACK BACKGROUND -->
-  <rect width="1200" height="380" fill="#000000"/>
-  <rect width="1200" height="380" fill="url(#cyber-bg)"/>
+  <!-- Background -->
+  <rect width="1200" height="340" fill="url(#bg)"/>
 
-  <!-- 3D PERSPECTIVE CYBER GRID (GROUND PLANE) -->
-  <g mask="url(#grid-mask)">
-    <!-- Vanishing point (600, 160) -->
-    <!-- Perspective Rays -->
-    <line x1="600" y1="160" x2="-200" y2="380" stroke="#00f2fe" stroke-width="1.2"/>
-    <line x1="600" y1="160" x2="-50" y2="380" stroke="#00f2fe" stroke-width="1.2"/>
-    <line x1="600" y1="160" x2="100" y2="380" stroke="#00f2fe" stroke-width="1.2"/>
-    <line x1="600" y1="160" x2="250" y2="380" stroke="#00f2fe" stroke-width="1.2"/>
-    <line x1="600" y1="160" x2="400" y2="380" stroke="#00f2fe" stroke-width="1.2"/>
-    <line x1="600" y1="160" x2="520" y2="380" stroke="#00f2fe" stroke-width="1.2"/>
-    <line x1="600" y1="160" x2="600" y2="380" stroke="#00f2fe" stroke-width="1.5"/>
-    <line x1="600" y1="160" x2="680" y2="380" stroke="#00f2fe" stroke-width="1.2"/>
-    <line x1="600" y1="160" x2="800" y2="380" stroke="#00f2fe" stroke-width="1.2"/>
-    <line x1="600" y1="160" x2="950" y2="380" stroke="#00f2fe" stroke-width="1.2"/>
-    <line x1="600" y1="160" x2="1100" y2="380" stroke="#00f2fe" stroke-width="1.2"/>
-    <line x1="600" y1="160" x2="1250" y2="380" stroke="#00f2fe" stroke-width="1.2"/>
-    <line x1="600" y1="160" x2="1400" y2="380" stroke="#00f2fe" stroke-width="1.2"/>
-
-    <!-- Horizontal Horizontal Grid Lines (Perspective spacing) -->
-    <line x1="0" y1="180" x2="1200" y2="180" stroke="#00f2fe" stroke-width="0.8"/>
-    <line x1="0" y1="198" x2="1200" y2="198" stroke="#00f2fe" stroke-width="0.9"/>
-    <line x1="0" y1="220" x2="1200" y2="220" stroke="#00f2fe" stroke-width="1.0"/>
-    <line x1="0" y1="248" x2="1200" y2="248" stroke="#00f2fe" stroke-width="1.1"/>
-    <line x1="0" y1="284" x2="1200" y2="284" stroke="#00f2fe" stroke-width="1.2"/>
-    <line x1="0" y1="330" x2="1200" y2="330" stroke="#00f2fe" stroke-width="1.4"/>
-    <line x1="0" y1="375" x2="1200" y2="375" stroke="#00f2fe" stroke-width="1.6"/>
+  <!-- Subtle grid pattern -->
+  <g opacity="0.04" stroke="#a855f7" stroke-width="0.5">
+    <line x1="0" y1="0" x2="0" y2="340"/><line x1="60" y1="0" x2="60" y2="340"/><line x1="120" y1="0" x2="120" y2="340"/>
+    <line x1="180" y1="0" x2="180" y2="340"/><line x1="240" y1="0" x2="240" y2="340"/><line x1="300" y1="0" x2="300" y2="340"/>
+    <line x1="360" y1="0" x2="360" y2="340"/><line x1="420" y1="0" x2="420" y2="340"/><line x1="480" y1="0" x2="480" y2="340"/>
+    <line x1="540" y1="0" x2="540" y2="340"/><line x1="600" y1="0" x2="600" y2="340"/><line x1="660" y1="0" x2="660" y2="340"/>
+    <line x1="720" y1="0" x2="720" y2="340"/><line x1="780" y1="0" x2="780" y2="340"/><line x1="840" y1="0" x2="840" y2="340"/>
+    <line x1="900" y1="0" x2="900" y2="340"/><line x1="960" y1="0" x2="960" y2="340"/><line x1="1020" y1="0" x2="1020" y2="340"/>
+    <line x1="1080" y1="0" x2="1080" y2="340"/><line x1="1140" y1="0" x2="1140" y2="340"/><line x1="1200" y1="0" x2="1200" y2="340"/>
+    <line x1="0" y1="0" x2="1200" y2="0"/><line x1="0" y1="60" x2="1200" y2="60"/><line x1="0" y1="120" x2="1200" y2="120"/>
+    <line x1="0" y1="180" x2="1200" y2="180"/><line x1="0" y1="240" x2="1200" y2="240"/><line x1="0" y1="300" x2="1200" y2="300"/>
   </g>
 
-  <!-- AMBIENT NEON GLOW SPHERES -->
-  <circle cx="200" cy="180" r="140" fill="#00f2fe" opacity="0.08" filter="url(#neon-glow-cyan)"/>
-  <circle cx="600" cy="160" r="180" fill="#8b5cf6" opacity="0.12" filter="url(#neon-glow-purple)"/>
-  <circle cx="1000" cy="180" r="140" fill="#00f2fe" opacity="0.08" filter="url(#neon-glow-cyan)"/>
+  <!-- Floating orb 1 (top-left) -->
+  <circle cx="120" cy="80" r="90" fill="url(#orb1)" filter="url(#glow-lg)">
+    <animate attributeName="cx" values="120;160;120" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="80;120;80" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="90;110;90" dur="7s" repeatCount="indefinite"/>
+  </circle>
 
-  <!-- CYBER HUD FRAME (TECH BRACKETS & BORDER) -->
-  <rect x="25" y="20" width="1150" height="340" rx="20" fill="none" stroke="#1f2937" stroke-width="1.5"/>
-  <rect x="25" y="20" width="1150" height="340" rx="20" fill="none" stroke="url(#neon-accent)" stroke-width="1.5" stroke-dasharray="120 40 40 40 80 800" opacity="0.8"/>
+  <!-- Floating orb 2 (right) -->
+  <circle cx="1050" cy="250" r="120" fill="url(#orb2)" filter="url(#glow-lg)">
+    <animate attributeName="cx" values="1050;1010;1050" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="250;200;250" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="120;100;120" dur="6s" repeatCount="indefinite"/>
+  </circle>
 
-  <!-- SCANNING LASER BEAM (TOP BORDER) -->
-  <g clip-path="url(#hud-clip)">
-    <rect x="25" y="19" width="350" height="3" fill="url(#laser-beam)" class="laser-anim"/>
+  <!-- Floating orb 3 (bottom-left) -->
+  <circle cx="200" cy="290" r="70" fill="url(#orb3)" filter="url(#glow-lg)">
+    <animate attributeName="cx" values="200;240;200" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="290;260;290" dur="8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Animated particles -->
+  <g fill="#00F2FE" opacity="0.6">
+    <circle cx="100" cy="40" r="1.5"><animate attributeName="cy" values="40;300;40" dur="12s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="12s" repeatCount="indefinite"/></circle>
+    <circle cx="300" cy="120" r="1"><animate attributeName="cy" values="120;10;120" dur="10s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.6;0" dur="10s" repeatCount="indefinite"/></circle>
+    <circle cx="500" cy="50" r="1.5"><animate attributeName="cy" values="50;330;50" dur="14s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0" dur="14s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="300" r="1"><animate attributeName="cy" values="300;20;300" dur="11s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.5;0" dur="11s" repeatCount="indefinite"/></circle>
+    <circle cx="900" cy="60" r="1.5"><animate attributeName="cy" values="60;280;60" dur="13s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.6;0" dur="13s" repeatCount="indefinite"/></circle>
+    <circle cx="1100" cy="200" r="1"><animate attributeName="cy" values="200;40;200" dur="9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="9s" repeatCount="indefinite"/></circle>
+  </g>
+  <g fill="#a855f7" opacity="0.5">
+    <circle cx="180" cy="200" r="1"><animate attributeName="cy" values="200;30;200" dur="15s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.5;0" dur="15s" repeatCount="indefinite"/></circle>
+    <circle cx="400" cy="280" r="1.5"><animate attributeName="cy" values="280;60;280" dur="11s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0" dur="11s" repeatCount="indefinite"/></circle>
+    <circle cx="800" cy="100" r="1"><animate attributeName="cy" values="100;320;100" dur="13s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.4;0" dur="13s" repeatCount="indefinite"/></circle>
+    <circle cx="1050" cy="80" r="1.5"><animate attributeName="cy" values="80;300;80" dur="10s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.6;0" dur="10s" repeatCount="indefinite"/></circle>
+  </g>
+  <g fill="#ec4899" opacity="0.4">
+    <circle cx="250" cy="150" r="1"><animate attributeName="cy" values="150;320;150" dur="14s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.5;0" dur="14s" repeatCount="indefinite"/></circle>
+    <circle cx="600" cy="280" r="1.5"><animate attributeName="cy" values="280;10;280" dur="12s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.6;0" dur="12s" repeatCount="indefinite"/></circle>
+    <circle cx="950" cy="170" r="1"><animate attributeName="cy" values="170;30;170" dur="11s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.5;0" dur="11s" repeatCount="indefinite"/></circle>
   </g>
 
-  <!-- CORNER ACCENTS (3D CHAMFERED BRACKETS) -->
-  <!-- Top Left -->
-  <path d="M 25 60 L 25 35 Q 25 20 40 20 L 75 20" fill="none" stroke="#00f2fe" stroke-width="3" filter="url(#neon-glow-cyan)"/>
-  <circle cx="45" cy="40" r="2.5" fill="#00f2fe"/>
-  <!-- Top Right -->
-  <path d="M 1125 20 L 1160 20 Q 1175 20 1175 35 L 1175 60" fill="none" stroke="#a855f7" stroke-width="3" filter="url(#neon-glow-purple)"/>
-  <circle cx="1155" cy="40" r="2.5" fill="#a855f7"/>
-  <!-- Bottom Left -->
-  <path d="M 25 320 L 25 345 Q 25 360 40 360 L 75 360" fill="none" stroke="#00f2fe" stroke-width="3" filter="url(#neon-glow-cyan)"/>
-  <circle cx="45" cy="340" r="2.5" fill="#00f2fe"/>
-  <!-- Bottom Right -->
-  <path d="M 1125 360 L 1160 360 Q 1175 360 1175 345 L 1175 320" fill="none" stroke="#38ef7d" stroke-width="3" filter="url(#neon-glow-cyan)"/>
-  <circle cx="1155" cy="340" r="2.5" fill="#38ef7d"/>
-
-  <!-- TOP HUD BAR: SYSTEM TELEMETRY & BEACON -->
-  <!-- Left Side: System ID -->
-  <g transform="translate(60, 48)">
-    <rect x="0" y="0" width="8" height="8" fill="#00f2fe"/>
-    <text x="16" y="8" fill="#00f2fe" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" letter-spacing="2">SYS.NODE // OPSHARP_V3.0</text>
-    <text x="230" y="8" fill="#64748b" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="600" letter-spacing="1.5">| LOC: IN // CLIENTS: WORLDWIDE</text>
+  <!-- 3D Rotating wireframe cube (left) -->
+  <g transform="translate(130,170)" opacity="0.25" stroke="#00F2FE" stroke-width="1" fill="none">
+    <animateTransform attributeName="transform" type="rotate" from="0 130 170" to="360 130 170" dur="30s" repeatCount="indefinite" additive="sum"/>
+    <polygon points="-30,-30 30,-30 30,30 -30,30"/>
+    <polygon points="-20,-20 40,-20 40,40 -20,40"/>
+    <line x1="-30" y1="-30" x2="-20" y2="-20"/>
+    <line x1="30" y1="-30" x2="40" y2="-20"/>
+    <line x1="30" y1="30" x2="40" y2="40"/>
+    <line x1="-30" y1="30" x2="-20" y2="40"/>
   </g>
 
-  <!-- Right Side: Live Status Beacon -->
-  <g transform="translate(940, 42)">
-    <rect x="0" y="0" width="195" height="26" rx="13" fill="#03150d" stroke="#00c853" stroke-width="1.2"/>
-    <circle cx="18" cy="13" r="5" fill="#00c853"/>
-    <circle cx="18" cy="13" r="8" fill="none" stroke="#00c853" stroke-width="1.5" class="beacon-ring" opacity="0.6"/>
-    <text x="32" y="17" fill="#38ef7d" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="800" letter-spacing="1.2">AVAILABLE FOR HIRE</text>
+  <!-- 3D Rotating wireframe hexagon (right) -->
+  <g transform="translate(1060,140)" opacity="0.2" stroke="#a855f7" stroke-width="1" fill="none">
+    <animateTransform attributeName="transform" type="rotate" from="0 1060 140" to="-360 1060 140" dur="25s" repeatCount="indefinite" additive="sum"/>
+    <polygon points="0,-35 30,-17 30,17 0,35 -30,17 -30,-17"/>
+    <polygon points="0,-25 22,-12 22,12 0,25 -22,12 -22,-12"/>
   </g>
 
-  <!-- CENTER TOP FLOATING BADGE -->
-  <g transform="translate(430, 80)">
-    <rect x="0" y="0" width="340" height="28" rx="14" fill="#000000" stroke="url(#neon-accent)" stroke-width="1.2" filter="url(#card-shadow)"/>
-    <text x="170" y="18" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="800" text-anchor="middle" letter-spacing="2.5">
-      ⚡ TARUN <tspan fill="#00f2fe">•</tspan> 25 Y/O FREELANCE DEVELOPER ⚡
-    </text>
+  <!-- 3D Rotating triangle (bottom-right) -->
+  <g transform="translate(1000,280)" opacity="0.15" stroke="#ec4899" stroke-width="1" fill="none">
+    <animateTransform attributeName="transform" type="rotate" from="0 1000 280" to="360 1000 280" dur="20s" repeatCount="indefinite" additive="sum"/>
+    <polygon points="0,-25 22,15 -22,15"/>
   </g>
 
-  <!-- ==================== 3D OPSHARP TITLE ==================== -->
-  <g class="title-group" transform="translate(600, 195)">
-    <!-- 3D EXTRUSION SHADOW LAYERS (DEEP PERSPECTIVE PROJECTION) -->
-    <text x="0" y="14" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Montserrat', sans-serif" font-size="94" font-weight="900" text-anchor="middle" letter-spacing="18" fill="#001824" opacity="0.7">OPSHARP</text>
-    <text x="0" y="11" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Montserrat', sans-serif" font-size="94" font-weight="900" text-anchor="middle" letter-spacing="18" fill="#002d44" opacity="0.8">OPSHARP</text>
-    <text x="0" y="8" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Montserrat', sans-serif" font-size="94" font-weight="900" text-anchor="middle" letter-spacing="18" fill="#004566" opacity="0.9">OPSHARP</text>
-    <text x="0" y="5" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Montserrat', sans-serif" font-size="94" font-weight="900" text-anchor="middle" letter-spacing="18" fill="#006080">OPSHARP</text>
-    <text x="0" y="2" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Montserrat', sans-serif" font-size="94" font-weight="900" text-anchor="middle" letter-spacing="18" fill="#0088b3">OPSHARP</text>
+  <!-- Glassmorphic center panel -->
+  <rect x="280" y="80" width="640" height="180" rx="20" fill="#ffffff" opacity="0.03" stroke="url(#glow-grad)" stroke-width="1"/>
+  <rect x="282" y="82" width="636" height="176" rx="18" fill="#0a0a1a" opacity="0.6"/>
 
-    <!-- 3D NEON GLOW BACKDROP -->
-    <text x="0" y="0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Montserrat', sans-serif" font-size="94" font-weight="900" text-anchor="middle" letter-spacing="18" fill="#00f2fe" filter="url(#neon-glow-cyan)" opacity="0.85">OPSHARP</text>
+  <!-- Orbiting ring around center area -->
+  <ellipse cx="600" cy="170" rx="360" ry="40" fill="none" stroke="#00F2FE" stroke-width="0.5" opacity="0.15" stroke-dasharray="8 12">
+    <animateTransform attributeName="transform" type="rotate" from="0 600 170" to="360 600 170" dur="20s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="600" cy="170" rx="340" ry="55" fill="none" stroke="#a855f7" stroke-width="0.3" opacity="0.1" stroke-dasharray="5 15">
+    <animateTransform attributeName="transform" type="rotate" from="0 600 170" to="-360 600 170" dur="28s" repeatCount="indefinite"/>
+  </ellipse>
 
-    <!-- MAIN FOREGROUND TEXT FACE (CHROME + CYAN GRADIENT) -->
-    <text x="0" y="0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Montserrat', sans-serif" font-size="94" font-weight="900" text-anchor="middle" letter-spacing="18" fill="url(#text-face)" stroke="url(#text-stroke)" stroke-width="1.8" class="glowing-title">OPSHARP</text>
+  <!-- Small orbiting dot on the ring -->
+  <circle cx="0" cy="0" r="3" fill="#00F2FE" filter="url(#glow-sm)">
+    <animateMotion dur="20s" repeatCount="indefinite">
+      <mpath href="#orbit-path"/>
+    </animateMotion>
+  </circle>
+  <ellipse id="orbit-path" cx="600" cy="170" rx="360" ry="40" fill="none"/>
+
+  <!-- Main Title: OPSHARP -->
+  <text x="600" y="148" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', system-ui, sans-serif" font-weight="800" font-size="64" fill="url(#cyan-grad)" filter="url(#glow-cyan)" letter-spacing="8">
+    OPSHARP
+    <animate attributeName="opacity" values="0.9;1;0.9" dur="3s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="185" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', system-ui, sans-serif" font-weight="400" font-size="17" fill="#94a3b8" letter-spacing="6">
+    FULL-STACK  &amp;  MOBILE  ENGINEER
+  </text>
+
+  <!-- Animated underline -->
+  <rect x="420" y="198" width="360" height="1.5" fill="url(#line-grad)" rx="1">
+    <animate attributeName="width" values="0;360;360;0" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="600;420;420;600" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Tagline pills -->
+  <g transform="translate(600, 230)" text-anchor="middle">
+    <!-- Pill 1 -->
+    <rect x="-285" y="-12" width="120" height="24" rx="12" fill="#00F2FE" opacity="0.1" stroke="#00F2FE" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="-225" y="4" font-family="'Fira Code', monospace" font-size="10" fill="#00F2FE" text-anchor="middle">27+ Apps Live</text>
+
+    <!-- Pill 2 -->
+    <rect x="-145" y="-12" width="100" height="24" rx="12" fill="#a855f7" opacity="0.1" stroke="#a855f7" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="-95" y="4" font-family="'Fira Code', monospace" font-size="10" fill="#a855f7" text-anchor="middle">On-Device AI</text>
+
+    <!-- Pill 3 -->
+    <rect x="-25" y="-12" width="100" height="24" rx="12" fill="#38ef7d" opacity="0.1" stroke="#38ef7d" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="25" y="4" font-family="'Fira Code', monospace" font-size="10" fill="#38ef7d" text-anchor="middle">Zero Bloat</text>
+
+    <!-- Pill 4 -->
+    <rect x="95" y="-12" width="100" height="24" rx="12" fill="#f59e0b" opacity="0.1" stroke="#f59e0b" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="145" y="4" font-family="'Fira Code', monospace" font-size="10" fill="#f59e0b" text-anchor="middle">Ship Fast</text>
+
+    <!-- Pill 5 -->
+    <rect x="215" y="-12" width="100" height="24" rx="12" fill="#ec4899" opacity="0.1" stroke="#ec4899" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="265" y="4" font-family="'Fira Code', monospace" font-size="10" fill="#ec4899" text-anchor="middle">Open Source</text>
   </g>
 
-  <!-- SUBTITLE / CAPABILITIES BANNER -->
-  <g transform="translate(600, 246)">
-    <text x="0" y="0" font-family="system-ui, -apple-system, sans-serif" font-size="14.5" font-weight="700" text-anchor="middle" letter-spacing="4" fill="#cbd5e1">
-      <tspan fill="#00f2fe">MOBILE APPS</tspan>
-      <tspan fill="#475569"> • </tspan>
-      <tspan fill="#38ef7d">WEB APPS &amp; SAAS</tspan>
-      <tspan fill="#475569"> • </tspan>
-      <tspan fill="#a855f7">LANDING PAGES</tspan>
-      <tspan fill="#475569"> • </tspan>
-      <tspan fill="#f59e0b">APP TEMPLATES</tspan>
-    </text>
-  </g>
+  <!-- Subtle scan line animation -->
+  <rect x="0" y="0" width="1200" height="2" fill="#00F2FE" opacity="0.04">
+    <animate attributeName="y" values="0;340;0" dur="6s" repeatCount="indefinite"/>
+  </rect>
 
-  <!-- BOTTOM 4 3D HOLOGRAPHIC CHIPS -->
-  <g transform="translate(140, 280)">
-    <!-- Chip 1: Play Store -->
-    <g transform="translate(0, 0)">
-      <rect x="0" y="0" width="200" height="38" rx="10" fill="#05150a" stroke="#00c853" stroke-width="1.5"/>
-      <circle cx="22" cy="19" r="6" fill="#00c853"/>
-      <text x="40" y="23" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" letter-spacing="0.5">27+ PLAY STORE APPS</text>
-    </g>
+  <!-- Bottom gradient fade line -->
+  <rect x="0" y="336" width="1200" height="4" fill="url(#line-grad)"/>
 
-    <!-- Chip 2: Flutter & Android -->
-    <g transform="translate(235, 0)">
-      <rect x="0" y="0" width="215" height="38" rx="10" fill="#04121f" stroke="#00f2fe" stroke-width="1.5"/>
-      <circle cx="22" cy="19" r="6" fill="#00f2fe"/>
-      <text x="40" y="23" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" letter-spacing="0.5">FLUTTER &amp; ANDROID PRO</text>
-    </g>
+  <!-- Corner decorators -->
+  <path d="M 0 30 L 0 0 L 30 0" fill="none" stroke="#00F2FE" stroke-width="1.5" opacity="0.3"/>
+  <path d="M 1170 0 L 1200 0 L 1200 30" fill="none" stroke="#a855f7" stroke-width="1.5" opacity="0.3"/>
+  <path d="M 0 310 L 0 340 L 30 340" fill="none" stroke="#ec4899" stroke-width="1.5" opacity="0.3"/>
+  <path d="M 1170 340 L 1200 340 L 1200 310" fill="none" stroke="#38ef7d" stroke-width="1.5" opacity="0.3"/>
 
-    <!-- Chip 3: React & Fullstack -->
-    <g transform="translate(485, 0)">
-      <rect x="0" y="0" width="200" height="38" rx="10" fill="#130826" stroke="#a855f7" stroke-width="1.5"/>
-      <circle cx="22" cy="19" r="6" fill="#a855f7"/>
-      <text x="40" y="23" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" letter-spacing="0.5">REACT, NODE &amp; CLOUD</text>
-    </g>
-
-    <!-- Chip 4: Custom Projects -->
-    <g transform="translate(720, 0)">
-      <rect x="0" y="0" width="200" height="38" rx="10" fill="#1f1103" stroke="#f59e0b" stroke-width="1.5"/>
-      <circle cx="22" cy="19" r="6" fill="#f59e0b"/>
-      <text x="40" y="23" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" letter-spacing="0.5">CUSTOM CLIENT WORK</text>
-    </g>
-  </g>
-
-  <!-- BOTTOM SUBTLE DECORATION LINE -->
-  <line x1="150" y1="345" x2="1050" y2="345" stroke="#1f2937" stroke-width="1"/>
-  <circle cx="600" cy="345" r="3" fill="#00f2fe"/>
 </svg>
